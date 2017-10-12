@@ -1,0 +1,27 @@
+c:\users\user\documents\visual studio 2012\Projects\WindowsFormsApplication19\WindowsFormsApplication19\bin\Debug\WindowsFormsApplication19.exe.config
+c:\users\user\documents\visual studio 2012\Projects\WindowsFormsApplication19\WindowsFormsApplication19\bin\Debug\WindowsFormsApplication19.exe
+c:\users\user\documents\visual studio 2012\Projects\WindowsFormsApplication19\WindowsFormsApplication19\bin\Debug\WindowsFormsApplication19.pdb
+c:\users\user\documents\visual studio 2012\Projects\WindowsFormsApplication19\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2012\Projects\WindowsFormsApplication19\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.Form1.resources
+c:\users\user\documents\visual studio 2012\Projects\WindowsFormsApplication19\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.Properties.Resources.resources
+c:\users\user\documents\visual studio 2012\Projects\WindowsFormsApplication19\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.csproj.GenerateResource.Cache
+c:\users\user\documents\visual studio 2012\Projects\WindowsFormsApplication19\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.exe
+c:\users\user\documents\visual studio 2012\Projects\WindowsFormsApplication19\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.pdb
+c:\users\user\documents\visual studio 2012\Projects\WindowsFormsApplication19\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.Form2.resources
+c:\users\user\documents\visual studio 2012\Projects\WindowsFormsApplication19\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.Form3.resources
+c:\users\user\documents\visual studio 2012\Projects\WindowsFormsApplication19\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.Form4.resources
+c:\users\user\documents\visual studio 2012\Projects\WindowsFormsApplication19\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.Form5.resources
+c:\users\user\documents\visual studio 2012\Projects\WindowsFormsApplication19\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.Form6.resources
+C:\Users\user\Desktop\МійМагазин\WindowsFormsApplication19\bin\Debug\WindowsFormsApplication19.exe.config
+C:\Users\user\Desktop\МійМагазин\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.exe
+C:\Users\user\Desktop\МійМагазин\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.pdb
+C:\Users\user\Desktop\МійМагазин\WindowsFormsApplication19\bin\Debug\WindowsFormsApplication19.exe
+C:\Users\user\Desktop\МійМагазин\WindowsFormsApplication19\bin\Debug\WindowsFormsApplication19.pdb
+C:\Users\user\Desktop\МійМагазин\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.Properties.Resources.resources
+C:\Users\user\Desktop\МійМагазин\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\МійМагазин\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.Login.resources
+C:\Users\user\Desktop\МійМагазин\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.Cashier.resources
+C:\Users\user\Desktop\МійМагазин\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.Admin.resources
+C:\Users\user\Desktop\МійМагазин\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.Ticket.resources
+C:\Users\user\Desktop\МійМагазин\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.Registr.resources
+C:\Users\user\Desktop\МійМагазин\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.AddProduct.resources
