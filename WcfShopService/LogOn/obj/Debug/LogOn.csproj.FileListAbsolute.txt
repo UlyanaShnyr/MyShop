@@ -44,3 +44,19 @@ C:\Users\Ruslanchik\Desktop\EnterFormNew\Проекти 19,04\WcfService1\LogOn\
 C:\Users\Ruslanchik\Desktop\EnterFormNew\Проекти 19,04\WcfService1\LogOn\obj\Debug\LogOn.csproj.GenerateResource.Cache
 C:\Users\Ruslanchik\Desktop\EnterFormNew\Проекти 19,04\WcfService1\LogOn\obj\Debug\LogOn.exe
 C:\Users\Ruslanchik\Desktop\EnterFormNew\Проекти 19,04\WcfService1\LogOn\obj\Debug\LogOn.pdb
+C:\Users\Ruslanchik\Desktop\PMProject\MyShop\WcfShopService\LogOn\bin\Debug\LogOn.exe.config
+C:\Users\Ruslanchik\Desktop\PMProject\MyShop\WcfShopService\LogOn\bin\Debug\LogOn.exe
+C:\Users\Ruslanchik\Desktop\PMProject\MyShop\WcfShopService\LogOn\bin\Debug\LogOn.pdb
+C:\Users\Ruslanchik\Desktop\PMProject\MyShop\WcfShopService\LogOn\obj\Debug\LogOn.csprojResolveAssemblyReference.cache
+C:\Users\Ruslanchik\Desktop\PMProject\MyShop\WcfShopService\LogOn\obj\Debug\MainWindow.g.cs
+C:\Users\Ruslanchik\Desktop\PMProject\MyShop\WcfShopService\LogOn\obj\Debug\Window1.g.cs
+C:\Users\Ruslanchik\Desktop\PMProject\MyShop\WcfShopService\LogOn\obj\Debug\App.g.cs
+C:\Users\Ruslanchik\Desktop\PMProject\MyShop\WcfShopService\LogOn\obj\Debug\LogOn_MarkupCompile.cache
+C:\Users\Ruslanchik\Desktop\PMProject\MyShop\WcfShopService\LogOn\obj\Debug\LogOn_MarkupCompile.lref
+C:\Users\Ruslanchik\Desktop\PMProject\MyShop\WcfShopService\LogOn\obj\Debug\MainWindow.baml
+C:\Users\Ruslanchik\Desktop\PMProject\MyShop\WcfShopService\LogOn\obj\Debug\Window1.baml
+C:\Users\Ruslanchik\Desktop\PMProject\MyShop\WcfShopService\LogOn\obj\Debug\LogOn.g.resources
+C:\Users\Ruslanchik\Desktop\PMProject\MyShop\WcfShopService\LogOn\obj\Debug\LogOn.Properties.Resources.resources
+C:\Users\Ruslanchik\Desktop\PMProject\MyShop\WcfShopService\LogOn\obj\Debug\LogOn.csproj.GenerateResource.Cache
+C:\Users\Ruslanchik\Desktop\PMProject\MyShop\WcfShopService\LogOn\obj\Debug\LogOn.exe
+C:\Users\Ruslanchik\Desktop\PMProject\MyShop\WcfShopService\LogOn\obj\Debug\LogOn.pdb

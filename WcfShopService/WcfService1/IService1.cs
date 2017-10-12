@@ -21,7 +21,7 @@ namespace WcfService1
         /// <param name="user">user</param>
         /// <returns>-1 not found, 0 - Cashier, 1 - Admin </returns>
         [OperationContract]
-        int isEntered(User user);
+        int Enter(User user);
 
         /// <summary>
         /// Admin registrate new cashier
@@ -62,6 +62,54 @@ namespace WcfService1
         [OperationContract]
         List<Product> GetShop();
 
+        /// <summary>
+        /// Check discont on product
+        /// </summary>
+        /// <param name="product">product</param>
+        /// <returns>discont in %</returns>
+        [OperationContract]
+        int CheckDiscont(Product product);
+
+        /// <summary>
+        /// Check users discont
+        /// </summary>
+        /// <param name="user">user</param>
+        /// <returns>discont in %</returns>
+        [OperationContract]
+        int CheckDiscont(User user);
+
+        /// <summary>
+        /// Get product types
+        /// </summary>
+        /// <returns>List of Types</returns>
+        [OperationContract]
+        List<Type> GetProductTypeds();
+
+        /// <summary>
+        /// Get moves of product in specified period
+        /// </summary>
+        /// <param name="from">from this time</param>
+        /// <param name="to">to this time</param>
+        /// <returns>List of Moves</returns>
+        [OperationContract]
+        List<Move> GetProductMoves(DateTime from, DateTime to);
+
+        /// <summary>
+        /// Get sales of product in specified period
+        /// </summary>
+        /// <param name="from">from this time</param>
+        /// <param name="to">to this time</param>
+        /// <returns>List of Sales</returns>
+        [OperationContract]
+        List<Sale> GetProductSales(DateTime from, DateTime to);
+
+        /// <summary>
+        /// Format new sale
+        /// </summary>
+        /// <param name="sale">new sale</param>
+        /// <returns>true if success, false if failed</returns>
+        [OperationContract]
+        bool FormatSale(Sale sale);
 
 
     }

@@ -14,8 +14,8 @@ namespace WcfService1
     // NOTE: In order to launch WCF Test Client for testing this service, please select Service1.svc or Service1.svc.cs at the Solution Explorer and start debugging.
     public class Service1 : IService1
     {
-        static List<byte> file = new List<byte>();
-        mySkype db = new mySkype(new SqlConnectionStringBuilder()
+
+        ShopDB db = new ShopDB(new SqlConnectionStringBuilder()
         {
             DataSource = @"RUSLAN\SQLEXPRESS",
             InitialCatalog = "MyReg2",
@@ -24,49 +24,69 @@ namespace WcfService1
             Password = "1",
         }.ConnectionString);
 
+        public int CheckDiscont(Product product)
+        {
+            throw new NotImplementedException();
+        }
+
+        public int CheckDiscont(User user)
+        {
+            throw new NotImplementedException();
+        }
+
+        public int Enter(User user)
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool FormatSale(Sale sale)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Move> GetProductMoves(DateTime from, DateTime to)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Product> GetProducts()
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Sale> GetProductSales(DateTime from, DateTime to)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Type> GetProductTypeds()
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Product> GetShop()
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Product> GetStorage()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Move(Location from, Location to, List<Product> products)
+        {
+            throw new NotImplementedException();
+        }
+
+        public string Registration(User user)
+        {
+            throw new NotImplementedException();
+        }
+
         public string Test() { return "Working"; }
 
-        public User isExist(User user)
-        {
-            foreach (var i in db.Users)
-                if (user.Login == i.Login) return i;
-            return null;
-        }
-
-        public bool corPass(User user)
-        {
-            if (user.Password == db.Users.Where(x => x.Login == user.Login).First().Password) return true;
-            return false;
-        }
-
-        public bool isEnter(User user)
-        {
-            return corPass(isExist(user));
-        }
-
-        public string Reg(User user)
-        {
-            try
-            {
-                
-
-                db.Users.Add(user);
-                db.SaveChanges();
-
-                return "OK";
-            }
-            catch(Exception ex) {
-                return ex.Message; }
-        }
-        public void SaveFile(byte[] bytes,string ext)
-        {
-            file.AddRange(bytes);
-         }
-
-        public void SaveToFile( string ext)
-        {
-            File.WriteAllBytes(@"D:\\IISTeach\" + ext, file.ToArray());
-            file.Clear();
-        }
+     
+        
     }
 }
