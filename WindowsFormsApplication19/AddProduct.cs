@@ -17,37 +17,37 @@ namespace WindowsFormsApplication19
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void Save_Click(object sender, EventArgs e)
         {
             this.Hide();
         }
 
-        private void textBox4_TextChanged(object sender, EventArgs e)
+        private void ProductsName_TextChanged(object sender, EventArgs e)
         {
-            textBox4.Text = "";
-            textBox4.TextChanged -= textBox4_TextChanged;
-            textBox4.ForeColor = Color.Black;
+            ProductsName.Text = "";
+            ProductsName.TextChanged -= ProductsName_TextChanged;
+            ProductsName.ForeColor = Color.Black;
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void Number_TextChanged(object sender, EventArgs e)
         {
-            textBox1.Text = "";
-            textBox1.TextChanged -= textBox1_TextChanged;
-            textBox1.ForeColor = Color.Black;
+            Number.Text = "";
+            Number.TextChanged -= Number_TextChanged;
+            Number.ForeColor = Color.Black;
         }
 
-        private void textBox2_TextChanged(object sender, EventArgs e)
+        private void Action_TextChanged(object sender, EventArgs e)
         {
-            textBox2.Text = "";
-            textBox2.TextChanged -= textBox2_TextChanged;
-            textBox2.ForeColor = Color.Black;
+            Action.Text = "";
+            Action.TextChanged -= Action_TextChanged;
+            Action.ForeColor = Color.Black;
         }
 
-        private void textBox3_TextChanged(object sender, EventArgs e)
+        private void Price_TextChanged(object sender, EventArgs e)
         {
-            textBox3.Text = "";
-            textBox3.TextChanged -= textBox3_TextChanged;
-            textBox3.ForeColor = Color.Black;
+            Price.Text = "";
+            Price.TextChanged -= Price_TextChanged;
+            Price.ForeColor = Color.Black;
         }
     }
 }

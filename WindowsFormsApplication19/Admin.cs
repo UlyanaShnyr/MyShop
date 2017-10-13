@@ -18,7 +18,7 @@ namespace WindowsFormsApplication19
             InitializeComponent();
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void AddProduct_Click(object sender, EventArgs e)
         {
             AddProduct ad;
             ad = new AddProduct();
@@ -26,7 +26,7 @@ namespace WindowsFormsApplication19
             
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void Exit_Click(object sender, EventArgs e)
         {
             Login m;
             m = new Login();
@@ -35,18 +35,33 @@ namespace WindowsFormsApplication19
 
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void CashierRegisteration_Click(object sender, EventArgs e)
         {
             Registr r;
             r = new Registr();         
             r.ShowDialog();
         }
 
-        private void textBox4_TextChanged(object sender, EventArgs e)
+        private void AdminName_TextChanged(object sender, EventArgs e)
         {
-            textBox4.Text = "";
-            textBox4.TextChanged -= textBox4_TextChanged;
-            textBox4.ForeColor = Color.Black;
+            AdminName.Text = "";
+            AdminName.TextChanged -= AdminName_TextChanged;
+            AdminName.ForeColor = Color.Black;
+        }
+
+        private void EditProduct_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ListProducts_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Save_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

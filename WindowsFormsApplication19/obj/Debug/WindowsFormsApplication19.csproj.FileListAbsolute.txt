@@ -25,3 +25,4 @@ C:\Users\user\Desktop\МійМагазин\WindowsFormsApplication19\obj\Debug\W
 C:\Users\user\Desktop\МійМагазин\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.Ticket.resources
 C:\Users\user\Desktop\МійМагазин\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.Registr.resources
 C:\Users\user\Desktop\МійМагазин\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.AddProduct.resources
+C:\Users\user\Desktop\МійМагазин\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.csprojResolveAssemblyReference.cache

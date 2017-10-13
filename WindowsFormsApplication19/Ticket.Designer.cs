@@ -31,27 +31,27 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.TotalPrice = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.priceforOneProducts = new System.Windows.Forms.TextBox();
+            this.nimber = new System.Windows.Forms.TextBox();
+            this.numbers = new System.Windows.Forms.TextBox();
+            this.ProductsName = new System.Windows.Forms.TextBox();
+            this.Sale = new System.Windows.Forms.Label();
+            this.day = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.cashiersName = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.score = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.hour = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.Print = new System.Windows.Forms.Button();
+            this.Back = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -60,22 +60,22 @@
             this.panel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel1.Controls.Add(this.label12);
             this.panel1.Controls.Add(this.label11);
-            this.panel1.Controls.Add(this.textBox9);
+            this.panel1.Controls.Add(this.TotalPrice);
             this.panel1.Controls.Add(this.label10);
             this.panel1.Controls.Add(this.label9);
-            this.panel1.Controls.Add(this.textBox8);
-            this.panel1.Controls.Add(this.textBox7);
-            this.panel1.Controls.Add(this.textBox6);
-            this.panel1.Controls.Add(this.textBox5);
-            this.panel1.Controls.Add(this.label8);
-            this.panel1.Controls.Add(this.textBox4);
+            this.panel1.Controls.Add(this.priceforOneProducts);
+            this.panel1.Controls.Add(this.nimber);
+            this.panel1.Controls.Add(this.numbers);
+            this.panel1.Controls.Add(this.ProductsName);
+            this.panel1.Controls.Add(this.Sale);
+            this.panel1.Controls.Add(this.day);
             this.panel1.Controls.Add(this.label7);
             this.panel1.Controls.Add(this.label6);
-            this.panel1.Controls.Add(this.textBox3);
+            this.panel1.Controls.Add(this.cashiersName);
             this.panel1.Controls.Add(this.label5);
-            this.panel1.Controls.Add(this.textBox2);
+            this.panel1.Controls.Add(this.score);
             this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.hour);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
@@ -106,14 +106,14 @@
             this.label11.TabIndex = 21;
             this.label11.Text = "м. Львів, вул. Пекарська 10";
             // 
-            // textBox9
+            // TotalPrice
             // 
-            this.textBox9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox9.Location = new System.Drawing.Point(117, 270);
-            this.textBox9.Multiline = true;
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(100, 22);
-            this.textBox9.TabIndex = 20;
+            this.TotalPrice.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TotalPrice.Location = new System.Drawing.Point(117, 270);
+            this.TotalPrice.Multiline = true;
+            this.TotalPrice.Name = "TotalPrice";
+            this.TotalPrice.Size = new System.Drawing.Size(100, 22);
+            this.TotalPrice.TabIndex = 20;
             // 
             // label10
             // 
@@ -137,70 +137,70 @@
             this.label9.TabIndex = 18;
             this.label9.Text = "****************************************************";
             // 
-            // textBox8
+            // priceforOneProducts
             // 
-            this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox8.ForeColor = System.Drawing.Color.Gray;
-            this.textBox8.Location = new System.Drawing.Point(213, 223);
-            this.textBox8.Multiline = true;
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(100, 22);
-            this.textBox8.TabIndex = 17;
-            this.textBox8.Text = "ціна за одиницю";
+            this.priceforOneProducts.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.priceforOneProducts.ForeColor = System.Drawing.Color.Gray;
+            this.priceforOneProducts.Location = new System.Drawing.Point(213, 223);
+            this.priceforOneProducts.Multiline = true;
+            this.priceforOneProducts.Name = "priceforOneProducts";
+            this.priceforOneProducts.Size = new System.Drawing.Size(100, 22);
+            this.priceforOneProducts.TabIndex = 17;
+            this.priceforOneProducts.Text = "ціна за одиницю";
             // 
-            // textBox7
+            // nimber
             // 
-            this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox7.ForeColor = System.Drawing.Color.Gray;
-            this.textBox7.Location = new System.Drawing.Point(6, 223);
-            this.textBox7.Multiline = true;
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 22);
-            this.textBox7.TabIndex = 16;
-            this.textBox7.Text = "кількість";
+            this.nimber.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.nimber.ForeColor = System.Drawing.Color.Gray;
+            this.nimber.Location = new System.Drawing.Point(6, 223);
+            this.nimber.Multiline = true;
+            this.nimber.Name = "nimber";
+            this.nimber.Size = new System.Drawing.Size(100, 22);
+            this.nimber.TabIndex = 16;
+            this.nimber.Text = "кількість";
             // 
-            // textBox6
+            // numbers
             // 
-            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox6.ForeColor = System.Drawing.Color.Gray;
-            this.textBox6.Location = new System.Drawing.Point(213, 195);
-            this.textBox6.Multiline = true;
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 22);
-            this.textBox6.TabIndex = 15;
-            this.textBox6.Text = "кількість";
+            this.numbers.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.numbers.ForeColor = System.Drawing.Color.Gray;
+            this.numbers.Location = new System.Drawing.Point(213, 195);
+            this.numbers.Multiline = true;
+            this.numbers.Name = "numbers";
+            this.numbers.Size = new System.Drawing.Size(100, 22);
+            this.numbers.TabIndex = 15;
+            this.numbers.Text = "кількість";
             // 
-            // textBox5
+            // ProductsName
             // 
-            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox5.ForeColor = System.Drawing.Color.Gray;
-            this.textBox5.Location = new System.Drawing.Point(6, 195);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(201, 22);
-            this.textBox5.TabIndex = 14;
-            this.textBox5.Text = "назва товару";
+            this.ProductsName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ProductsName.ForeColor = System.Drawing.Color.Gray;
+            this.ProductsName.Location = new System.Drawing.Point(6, 195);
+            this.ProductsName.Multiline = true;
+            this.ProductsName.Name = "ProductsName";
+            this.ProductsName.Size = new System.Drawing.Size(201, 22);
+            this.ProductsName.TabIndex = 14;
+            this.ProductsName.Text = "назва товару";
             // 
-            // label8
+            // Sale
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label8.ForeColor = System.Drawing.Color.Black;
-            this.label8.Location = new System.Drawing.Point(3, 176);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(62, 16);
-            this.label8.TabIndex = 13;
-            this.label8.Text = "Продаж:";
-            this.label8.Click += new System.EventHandler(this.label8_Click);
+            this.Sale.AutoSize = true;
+            this.Sale.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Sale.ForeColor = System.Drawing.Color.Black;
+            this.Sale.Location = new System.Drawing.Point(3, 176);
+            this.Sale.Name = "Sale";
+            this.Sale.Size = new System.Drawing.Size(62, 16);
+            this.Sale.TabIndex = 13;
+            this.Sale.Text = "Продаж:";
+            this.Sale.Click += new System.EventHandler(this.Sale_Click);
             // 
-            // textBox4
+            // day
             // 
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox4.Location = new System.Drawing.Point(52, 151);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 22);
-            this.textBox4.TabIndex = 12;
+            this.day.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.day.Location = new System.Drawing.Point(52, 151);
+            this.day.Multiline = true;
+            this.day.Name = "day";
+            this.day.Size = new System.Drawing.Size(100, 22);
+            this.day.TabIndex = 12;
             // 
             // label7
             // 
@@ -224,14 +224,14 @@
             this.label6.TabIndex = 10;
             this.label6.Text = "****************************************************";
             // 
-            // textBox3
+            // cashiersName
             // 
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox3.Location = new System.Drawing.Point(83, 112);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 9;
+            this.cashiersName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.cashiersName.Location = new System.Drawing.Point(83, 112);
+            this.cashiersName.Multiline = true;
+            this.cashiersName.Name = "cashiersName";
+            this.cashiersName.Size = new System.Drawing.Size(100, 20);
+            this.cashiersName.TabIndex = 9;
             // 
             // label5
             // 
@@ -244,14 +244,14 @@
             this.label5.TabIndex = 8;
             this.label5.Text = "Касир:";
             // 
-            // textBox2
+            // score
             // 
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox2.Location = new System.Drawing.Point(83, 96);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 7;
+            this.score.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.score.Location = new System.Drawing.Point(83, 96);
+            this.score.Multiline = true;
+            this.score.Name = "score";
+            this.score.Size = new System.Drawing.Size(100, 20);
+            this.score.TabIndex = 7;
             // 
             // label4
             // 
@@ -264,14 +264,14 @@
             this.label4.TabIndex = 6;
             this.label4.Text = "Рахунок № ";
             // 
-            // textBox1
+            // hour
             // 
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Location = new System.Drawing.Point(83, 77);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 19);
-            this.textBox1.TabIndex = 5;
+            this.hour.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.hour.Location = new System.Drawing.Point(83, 77);
+            this.hour.Multiline = true;
+            this.hour.Name = "hour";
+            this.hour.Size = new System.Drawing.Size(100, 19);
+            this.hour.TabIndex = 5;
             // 
             // label3
             // 
@@ -306,38 +306,39 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "\"SportsEat\"";
             // 
-            // button1
+            // Print
             // 
-            this.button1.BackColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(56, 388);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(106, 38);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Друк";
-            this.button1.UseVisualStyleBackColor = false;
+            this.Print.BackColor = System.Drawing.Color.White;
+            this.Print.Location = new System.Drawing.Point(56, 388);
+            this.Print.Name = "Print";
+            this.Print.Size = new System.Drawing.Size(106, 38);
+            this.Print.TabIndex = 1;
+            this.Print.Text = "Друк";
+            this.Print.UseVisualStyleBackColor = false;
+            this.Print.Click += new System.EventHandler(this.Print_Click);
             // 
-            // button2
+            // Back
             // 
-            this.button2.BackColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(188, 388);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(106, 38);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Назад";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.Back.BackColor = System.Drawing.Color.White;
+            this.Back.Location = new System.Drawing.Point(188, 388);
+            this.Back.Name = "Back";
+            this.Back.Size = new System.Drawing.Size(106, 38);
+            this.Back.TabIndex = 2;
+            this.Back.Text = "Назад";
+            this.Back.UseVisualStyleBackColor = false;
+            this.Back.Click += new System.EventHandler(this.Back_Click);
             // 
-            // Form4
+            // Ticket
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(484, 462);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Back);
+            this.Controls.Add(this.Print);
             this.Controls.Add(this.panel1);
-            this.Name = "Form4";
-            this.Text = "Form4";
+            this.Name = "Ticket";
+            this.Text = "Ticket";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -349,26 +350,26 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Label Sale;
+        private System.Windows.Forms.TextBox day;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox cashiersName;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox score;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox hour;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox TotalPrice;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox priceforOneProducts;
+        private System.Windows.Forms.TextBox nimber;
+        private System.Windows.Forms.TextBox numbers;
+        private System.Windows.Forms.TextBox ProductsName;
+        private System.Windows.Forms.Button Print;
+        private System.Windows.Forms.Button Back;
     }
 }
