@@ -1,14 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfService1", "WcfService1\WcfService1.csproj", "{EB983400-75A9-46E7-8EC8-9F079BC349D0}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogOn", "LogOn\LogOn.csproj", "{06FDB0D5-FEDD-4EA2-BB99-D8063D8875EE}"
-	ProjectSection(ProjectDependencies) = postProject
-		{EB983400-75A9-46E7-8EC8-9F079BC349D0} = {EB983400-75A9-46E7-8EC8-9F079BC349D0}
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,10 +15,6 @@ Global
 		{EB983400-75A9-46E7-8EC8-9F079BC349D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB983400-75A9-46E7-8EC8-9F079BC349D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB983400-75A9-46E7-8EC8-9F079BC349D0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{06FDB0D5-FEDD-4EA2-BB99-D8063D8875EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{06FDB0D5-FEDD-4EA2-BB99-D8063D8875EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{06FDB0D5-FEDD-4EA2-BB99-D8063D8875EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{06FDB0D5-FEDD-4EA2-BB99-D8063D8875EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

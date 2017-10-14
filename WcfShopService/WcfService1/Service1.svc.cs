@@ -18,7 +18,7 @@ namespace WcfService1
         ShopDB db = new ShopDB(new SqlConnectionStringBuilder()
         {
             DataSource = @"RUSLAN\SQLEXPRESS",
-            InitialCatalog = "MyReg2",
+            InitialCatalog = "AccountigSystem",
             IntegratedSecurity = false,
             UserID = "sa",
             Password = "1",
@@ -26,62 +26,84 @@ namespace WcfService1
 
         public int CheckDiscont(Product product)
         {
-            throw new NotImplementedException();
+            return product._Discont.Percent;
         }
 
         public int CheckDiscont(User user)
         {
-            throw new NotImplementedException();
+            return user._Discont.Percent;
         }
 
         public int Enter(User user)
         {
-            throw new NotImplementedException();
+            var _user = db.Users.Where(x => x.Login == user.Login && x.Password == user.Password).First();
+            if (_user!=null)
+            {
+                return user.Role;
+            }
+            return -1;
         }
 
         public bool FormatSale(Sale sale)
         {
-            throw new NotImplementedException();
+            foreach (var item in db.Shop.First().Products) {
+                foreach (var saled in sale.SaledProducts)
+                {
+                    if (item._Type == saled._Type && saled._Count <= item._Count)
+                    {
+                        item._Count -= saled._Count;
+                        db.Sales.Add(sale);
+                        db.SaveChanges();
+                        return true;
+                    }
+                }
+            }
+            return false;         
         }
 
         public List<Move> GetProductMoves(DateTime from, DateTime to)
         {
-            throw new NotImplementedException();
+            return db.Move.Where(move => move.Date >= from && move.Date <= to).ToList();
         }
 
         public List<Product> GetProducts()
         {
-            throw new NotImplementedException();
+            return db.Products.ToList();
         }
 
         public List<Sale> GetProductSales(DateTime from, DateTime to)
         {
-            throw new NotImplementedException();
+            return db.Sales.Where(prod => prod.SaleDate >= from && prod.SaleDate <= to).ToList();
         }
 
-        public List<Type> GetProductTypeds()
+        public List<ProductType> GetProductTypes()
         {
-            throw new NotImplementedException();
+            return db.ProductTypes.ToList();
         }
 
         public List<Product> GetShop()
         {
-            throw new NotImplementedException();
+            return db.Shop.First().Products;
         }
 
         public List<Product> GetStorage()
         {
-            throw new NotImplementedException();
+            return db.Storages.First().Products;
         }
 
         public bool Move(Location from, Location to, List<Product> products)
         {
-            throw new NotImplementedException();
+            return true;
         }
 
         public string Registration(User user)
         {
-            throw new NotImplementedException();
+            if(db.Users.Where(_user=>_user.Login == user.Login).Count() > 0)
+                  throw new NotImplementedException();//todo LoginExsistException
+
+            db.Users.Add(user);
+            db.SaveChanges();
+            return user.Login + " " + user.Password;
         }
 
         public string Test() { return "Working"; }

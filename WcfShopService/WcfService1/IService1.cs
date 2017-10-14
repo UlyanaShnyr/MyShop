@@ -25,6 +25,8 @@ namespace WcfService1
 
         /// <summary>
         /// Admin registrate new cashier
+        /// if user exsist generate LoginExsistException
+        /// todo: LoginExsistException
         /// </summary>
         /// <param name="user">new user</param>
         /// <returns>Login & Password</returns>
@@ -83,7 +85,7 @@ namespace WcfService1
         /// </summary>
         /// <returns>List of Types</returns>
         [OperationContract]
-        List<Type> GetProductTypeds();
+        List<ProductType> GetProductTypes();
 
         /// <summary>
         /// Get moves of product in specified period

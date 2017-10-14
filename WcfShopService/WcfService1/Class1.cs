@@ -20,6 +20,8 @@ namespace WcfService1
 
         [DataMember]
         public List<Product> Products { get; set; }
+
+
     }
 
     [DataContract]
@@ -49,6 +51,9 @@ namespace WcfService1
 
         [DataMember]
         public int Role { get; set; }
+
+        [DataMember]
+        public Discount _Discont { get; set; }
     }
 
     [DataContract]
@@ -95,6 +100,9 @@ namespace WcfService1
 
         [DataMember]
         public ProductType _Type { get; set; }
+
+        [DataMember]
+        public int _Count { get; set; }
 
 
     }
