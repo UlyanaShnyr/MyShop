@@ -24,6 +24,35 @@ namespace WcfService1
             Password = "1",
         }.ConnectionString);
 
+        public bool AddLocations(string locationName)
+        {
+            if (db.Locatoins.Select(location => location.Name == locationName).Count() > 0) return false;
+            db.Locatoins.Add(new Location() { Name = locationName });
+            return true;
+        }
+
+        public int AddProductDiscont(int idProduct, int percent)
+        {
+            db.Products.Where(product => product.Id == idProduct).First()._Discont.Percent = percent;
+            db.SaveChanges();
+            return percent;
+        }
+
+        public List<ProductType> AddProductTypes(string type)
+        {
+            if(db.ProductTypes.Select(_type=>_type.Name).Contains(type)) throw new NotImplementedException();
+            db.ProductTypes.Add(new ProductType() { Name = type });
+            db.SaveChanges();
+            return db.ProductTypes.ToList();
+        }
+
+        public int AddUserDiscont(int idUser, int percent)
+        {
+            db.Users.Where(user => user.Id == idUser).First()._Discont.Percent = percent;
+            db.SaveChanges();
+            return percent;
+        }
+
         public int CheckDiscont(Product product)
         {
             return product._Discont.Percent;
@@ -44,9 +73,11 @@ namespace WcfService1
             return -1;
         }
 
-        public bool FormatSale(Sale sale)
+        public bool FormatSale(Sale sale,int idLocation)
         {
-            foreach (var item in db.Shop.First().Products) {
+            
+            foreach (var item in db.Locatoins.Where(locate => locate.Id == idLocation).First().Products)
+            {
                 foreach (var saled in sale.SaledProducts)
                 {
                     if (item._Type == saled._Type && saled._Count <= item._Count)
@@ -61,6 +92,11 @@ namespace WcfService1
             return false;         
         }
 
+        public List<Location> GetLocations()
+        {
+            return db.Locatoins.ToList();
+        }
+
         public List<Move> GetProductMoves(DateTime from, DateTime to)
         {
             return db.Move.Where(move => move.Date >= from && move.Date <= to).ToList();
@@ -69,6 +105,11 @@ namespace WcfService1
         public List<Product> GetProducts()
         {
             return db.Products.ToList();
+        }
+
+        public List<Product> GetProducts(int idLocation)
+        {
+            return db.Locatoins.Where(location => location.Id == idLocation).First().Products;
         }
 
         public List<Sale> GetProductSales(DateTime from, DateTime to)
@@ -81,17 +122,11 @@ namespace WcfService1
             return db.ProductTypes.ToList();
         }
 
-        public List<Product> GetShop()
-        {
-            return db.Shop.First().Products;
-        }
 
-        public List<Product> GetStorage()
-        {
-            return db.Storages.First().Products;
-        }
 
-        public bool Move(Location from, Location to, List<Product> products)
+ 
+
+        public bool Move(int idFrom, int idTo, List<Product> products)
         {
             return true;
         }

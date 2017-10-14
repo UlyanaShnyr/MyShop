@@ -34,35 +34,46 @@ namespace WcfService1
         string Registration(User user);
 
         /// <summary>
-        /// Get all priducts
+        /// Get all products
         /// </summary>
         /// <returns>List of products</returns>
         [OperationContract]
         List<Product> GetProducts();
 
         /// <summary>
-        /// Get all products on storage
+        /// Get all products on shop
         /// </summary>
         /// <returns>List of products</returns>
         [OperationContract]
-        List<Product> GetStorage();
+        List<Product> GetProducts(int idLocation);
 
         /// <summary>
-        /// 
+        /// Move a product from one location to another
         /// </summary>
         /// <param name="from">place from move product</param>
         /// <param name="to">place to move product</param>
         /// <param name="products">products which move</param>
         /// <returns>true if opreration complete false if failed</returns>
         [OperationContract]
-        bool Move(Location from, Location to, List<Product> products);
+        bool Move(int idFrom, int idTo, List<Product> products);
+
+   
+
 
         /// <summary>
-        /// Get all products on shop
+        /// Get locations
         /// </summary>
-        /// <returns>List of products</returns>
+        /// <returns>List of loactions</returns>
         [OperationContract]
-        List<Product> GetShop();
+        List<Location> GetLocations();
+
+
+        /// <summary>
+        /// add new location
+        /// </summary>
+        /// <returns>true if success false failed</returns>
+        [OperationContract]
+        bool AddLocations(string name);
 
         /// <summary>
         /// Check discont on product
@@ -81,11 +92,38 @@ namespace WcfService1
         int CheckDiscont(User user);
 
         /// <summary>
+        /// Add users discont
+        /// </summary>
+        /// <param name="user">user</param>
+        /// /// <param name="percent">percent</param>
+        /// <returns>discont in %</returns>
+        [OperationContract]
+        int AddUserDiscont(int idUser, int percent);
+
+
+        /// <summary>
+        /// Add product discont
+        /// </summary>
+        /// <param name="product">product</param>
+        /// <param name="percent">percent</param>
+        /// <returns>discont in %</returns>
+        [OperationContract]
+        int AddProductDiscont(int idProduct, int percent);
+
+        /// <summary>
         /// Get product types
         /// </summary>
         /// <returns>List of Types</returns>
         [OperationContract]
         List<ProductType> GetProductTypes();
+
+
+        /// <summary>
+        /// Add product types
+        /// </summary>
+        /// <returns>List of Types</returns>
+        [OperationContract]
+        List<ProductType> AddProductTypes(string type);
 
         /// <summary>
         /// Get moves of product in specified period
@@ -105,13 +143,14 @@ namespace WcfService1
         [OperationContract]
         List<Sale> GetProductSales(DateTime from, DateTime to);
 
+
         /// <summary>
         /// Format new sale
         /// </summary>
         /// <param name="sale">new sale</param>
         /// <returns>true if success, false if failed</returns>
         [OperationContract]
-        bool FormatSale(Sale sale);
+        bool FormatSale(Sale sale, int idLocation);
 
 
     }

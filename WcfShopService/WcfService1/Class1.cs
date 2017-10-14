@@ -13,10 +13,13 @@ namespace WcfService1
 
     [DataContract]
     [Table("Location")]
-    public abstract class Location
+    public class Location
     {
         [DataMember]
         public int Id{get; set;}
+
+        [DataMember]
+        public string Name { get; set; }
 
         [DataMember]
         public List<Product> Products { get; set; }
@@ -124,19 +127,6 @@ namespace WcfService1
         public DateTime SaleDate { get; set; }
     }
 
-    [DataContract]
-    [Table("Storage")]
-    public class Storage:Location
-    {
-       
-    }
-
-    [DataContract]
-    [Table("Shop")]
-    public class Shop:Location
-    {
-
-    }
 
     [DataContract]
     [Table("Move")]
@@ -168,8 +158,6 @@ namespace WcfService1
         public virtual DbSet<Product> Products { get; set; }
         public virtual DbSet<Sale> Sales { get; set; }
         public virtual DbSet<Location> Locatoins { get; set; }
-        public virtual DbSet<Storage> Storages { get; set; }
-        public virtual DbSet<Shop> Shop { get; set; }
         public virtual DbSet<Move> Move { get; set; }
         public virtual DbSet<Discount> Discount { get; set; }
         public virtual DbSet<ProductType> ProductTypes { get; set; }
