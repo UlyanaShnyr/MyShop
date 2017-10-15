@@ -30,13 +30,13 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
+            this.Name = new System.Windows.Forms.TextBox();
+            this.Surname = new System.Windows.Forms.TextBox();
+            this.PhoneNumber = new System.Windows.Forms.TextBox();
+            this.Login = new System.Windows.Forms.TextBox();
+            this.Password = new System.Windows.Forms.TextBox();
+            this.againpassword = new System.Windows.Forms.TextBox();
+            this.Registration = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -61,78 +61,78 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Магазин спортивних добавок";
             // 
-            // textBox4
+            // Name
             // 
-            this.textBox4.ForeColor = System.Drawing.Color.Gray;
-            this.textBox4.Location = new System.Drawing.Point(40, 119);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(389, 20);
-            this.textBox4.TabIndex = 32;
-            this.textBox4.Text = "Ім\'я";
-            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
+            this.Name.ForeColor = System.Drawing.Color.Gray;
+            this.Name.Location = new System.Drawing.Point(40, 119);
+            this.Name.Name = "Name";
+            this.Name.Size = new System.Drawing.Size(389, 20);
+            this.Name.TabIndex = 32;
+            this.Name.Text = "Ім\'я";
+            this.Name.TextChanged += new System.EventHandler(this.Name_TextChanged);
             // 
-            // textBox1
+            // Surname
             // 
-            this.textBox1.ForeColor = System.Drawing.Color.Gray;
-            this.textBox1.Location = new System.Drawing.Point(40, 145);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(389, 20);
-            this.textBox1.TabIndex = 33;
-            this.textBox1.Text = "Фамілія";
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.Surname.ForeColor = System.Drawing.Color.Gray;
+            this.Surname.Location = new System.Drawing.Point(40, 145);
+            this.Surname.Name = "Surname";
+            this.Surname.Size = new System.Drawing.Size(389, 20);
+            this.Surname.TabIndex = 33;
+            this.Surname.Text = "Фамілія";
+            this.Surname.TextChanged += new System.EventHandler(this.Surname_TextChanged);
             // 
-            // textBox2
+            // PhoneNumber
             // 
-            this.textBox2.ForeColor = System.Drawing.Color.Gray;
-            this.textBox2.Location = new System.Drawing.Point(40, 171);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(389, 20);
-            this.textBox2.TabIndex = 34;
-            this.textBox2.Text = "Номер телефону";
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.PhoneNumber.ForeColor = System.Drawing.Color.Gray;
+            this.PhoneNumber.Location = new System.Drawing.Point(40, 171);
+            this.PhoneNumber.Name = "PhoneNumber";
+            this.PhoneNumber.Size = new System.Drawing.Size(389, 20);
+            this.PhoneNumber.TabIndex = 34;
+            this.PhoneNumber.Text = "Номер телефону";
+            this.PhoneNumber.TextChanged += new System.EventHandler(this.PhoneNumber_TextChanged);
             // 
-            // textBox3
+            // Login
             // 
-            this.textBox3.ForeColor = System.Drawing.Color.Gray;
-            this.textBox3.Location = new System.Drawing.Point(40, 197);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(389, 20);
-            this.textBox3.TabIndex = 35;
-            this.textBox3.Text = "логін";
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            this.Login.ForeColor = System.Drawing.Color.Gray;
+            this.Login.Location = new System.Drawing.Point(40, 197);
+            this.Login.Name = "Login";
+            this.Login.Size = new System.Drawing.Size(389, 20);
+            this.Login.TabIndex = 35;
+            this.Login.Text = "логін";
+            this.Login.TextChanged += new System.EventHandler(this.Login_TextChanged);
             // 
-            // textBox5
+            // Password
             // 
-            this.textBox5.ForeColor = System.Drawing.Color.Gray;
-            this.textBox5.Location = new System.Drawing.Point(40, 223);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(389, 20);
-            this.textBox5.TabIndex = 36;
-            this.textBox5.Text = "пароль";
-            this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
+            this.Password.ForeColor = System.Drawing.Color.Gray;
+            this.Password.Location = new System.Drawing.Point(40, 223);
+            this.Password.Name = "Password";
+            this.Password.Size = new System.Drawing.Size(389, 20);
+            this.Password.TabIndex = 36;
+            this.Password.Text = "пароль";
+            this.Password.TextChanged += new System.EventHandler(this.Password_TextChanged);
             // 
-            // textBox6
+            // againpassword
             // 
-            this.textBox6.ForeColor = System.Drawing.Color.Gray;
-            this.textBox6.Location = new System.Drawing.Point(40, 249);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(389, 20);
-            this.textBox6.TabIndex = 37;
-            this.textBox6.Text = "повторити пароль";
-            this.textBox6.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
+            this.againpassword.ForeColor = System.Drawing.Color.Gray;
+            this.againpassword.Location = new System.Drawing.Point(40, 249);
+            this.againpassword.Name = "againpassword";
+            this.againpassword.Size = new System.Drawing.Size(389, 20);
+            this.againpassword.TabIndex = 37;
+            this.againpassword.Text = "повторити пароль";
+            this.againpassword.TextChanged += new System.EventHandler(this.againpassword_TextChanged);
             // 
-            // button2
+            // Registration
             // 
-            this.button2.BackColor = System.Drawing.Color.Red;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(40, 292);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(213, 34);
-            this.button2.TabIndex = 38;
-            this.button2.Text = "Зареєструвати";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.Registration.BackColor = System.Drawing.Color.Red;
+            this.Registration.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Registration.ForeColor = System.Drawing.Color.White;
+            this.Registration.Location = new System.Drawing.Point(40, 292);
+            this.Registration.Name = "Registration";
+            this.Registration.Size = new System.Drawing.Size(213, 34);
+            this.Registration.TabIndex = 38;
+            this.Registration.Text = "Зареєструвати";
+            this.Registration.UseVisualStyleBackColor = false;
+            this.Registration.Click += new System.EventHandler(this.Registration_Click);
             // 
             // Registr
             // 
@@ -140,17 +140,17 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(484, 462);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.Registration);
+            this.Controls.Add(this.againpassword);
+            this.Controls.Add(this.Password);
+            this.Controls.Add(this.Login);
+            this.Controls.Add(this.PhoneNumber);
+            this.Controls.Add(this.Surname);
+            this.Controls.Add(this.Name);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Registr";
-            this.Text = "Form5";
+            this.Text = "Registration";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -160,12 +160,12 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox Name;
+        private System.Windows.Forms.TextBox Surname;
+        private System.Windows.Forms.TextBox PhoneNumber;
+        private System.Windows.Forms.TextBox Login;
+        private System.Windows.Forms.TextBox Password;
+        private System.Windows.Forms.TextBox againpassword;
+        private System.Windows.Forms.Button Registration;
     }
 }

@@ -17,53 +17,53 @@ namespace WindowsFormsApplication19
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void Registration_Click(object sender, EventArgs e)
         {
           
             this.Hide();
          
         }
 
-        private void textBox4_TextChanged(object sender, EventArgs e)
+        private void Name_TextChanged(object sender, EventArgs e)
         {
-            textBox4.Text = "";
-            textBox4.TextChanged -= textBox4_TextChanged;
-            textBox4.ForeColor = Color.Black;
+            Name.Text = "";
+            Name.TextChanged -= Name_TextChanged;
+            Name.ForeColor = Color.Black;
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void Surname_TextChanged(object sender, EventArgs e)
         {
-            textBox1.Text = "";
-            textBox1.TextChanged -= textBox1_TextChanged;
-            textBox1.ForeColor = Color.Black;
+            Surname.Text = "";
+            Surname.TextChanged -= Surname_TextChanged;
+            Surname.ForeColor = Color.Black;
+        }
+Login
+        private void PhoneNumber_TextChanged(object sender, EventArgs e)
+        {
+            PhoneNumber.Text = "";
+            PhoneNumber.TextChanged -= PhoneNumber_TextChanged;
+            PhoneNumber.ForeColor = Color.Black;
         }
 
-        private void textBox2_TextChanged(object sender, EventArgs e)
+        private void Login_TextChanged(object sender, EventArgs e)
         {
-            textBox2.Text = "";
-            textBox2.TextChanged -= textBox2_TextChanged;
-            textBox2.ForeColor = Color.Black;
+            Login.Text = "";
+            Login.TextChanged -= Login_TextChanged;
+            Login.ForeColor = Color.Black;
         }
 
-        private void textBox3_TextChanged(object sender, EventArgs e)
+        private void Password_TextChanged(object sender, EventArgs e)
         {
-            textBox3.Text = "";
-            textBox3.TextChanged -= textBox3_TextChanged;
-            textBox3.ForeColor = Color.Black;
+            Password.Text = "";
+            Password.TextChanged -= Password_TextChanged;
+            Password.ForeColor = Color.Black;
         }
 
-        private void textBox5_TextChanged(object sender, EventArgs e)
+        private void  againpassword_TextChanged(object sender, EventArgs e)
         {
-            textBox5.Text = "";
-            textBox5.TextChanged -= textBox5_TextChanged;
-            textBox5.ForeColor = Color.Black;
-        }
-
-        private void textBox6_TextChanged(object sender, EventArgs e)
-        {
-            textBox6.Text = "";
-            textBox6.TextChanged -= textBox6_TextChanged;
-            textBox6.ForeColor = Color.Black;
+            againpassword.Text = "";
+            againpassword.TextChanged -= againpassword_TextChanged;
+            againpassword.ForeColor = Color.Black;
         }
     }
 }

@@ -17,30 +17,24 @@ namespace WindowsFormsApplication19
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void SportsEat_Click(object sender, EventArgs e)
         {
 
         }
+              
 
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-       
-
-        private void button1_Click(object sender, EventArgs e)
+        private void Enter_Click(object sender, EventArgs e)
         {
             string c = "1";
             string a = "2";
-            if (textBox1.Text == c)
+            if (LoginName.Text == c)
             {
                 Cashier f2;
                 f2 = new Cashier(this);
                 this.Hide();
                 f2.ShowDialog();
             }
-            if (textBox1.Text == a)
+            if (LoginName.Text == a)
             {
                 Admin f3;
                 f3 = new Admin(this);
@@ -61,28 +55,33 @@ namespace WindowsFormsApplication19
            // Close();
         }
 
-        private void textBox1_Enter(object sender, EventArgs e)
+        private void LoginName_Enter(object sender, EventArgs e)
         {
-            
-           // textBox1.Text = "";
-           
+
+            // textBox1.Text = "";
+
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void LoginName_TextChanged(object sender, EventArgs e)
         {
            
-           textBox1.Text = "";
-           textBox1.TextChanged -= textBox1_TextChanged;
-           textBox1.ForeColor = Color.Black;
+           LoginName.Text = "";
+           LoginName.TextChanged -= LoginName_TextChanged;
+           LoginName.ForeColor = Color.Black;
         
            
         }
 
-        private void textBox2_TextChanged(object sender, EventArgs e)
+        private void Password_TextChanged(object sender, EventArgs e)
         {
-            textBox2.Text = "";
-            textBox2.TextChanged -= textBox2_TextChanged;
-            textBox2.ForeColor = Color.Black;
+            Password.Text = "";
+            Password.TextChanged -= Password_TextChanged;
+            Password.ForeColor = Color.Black;
+        }
+
+        private void labelshop_Click(object sender, EventArgs e)
+        {
+
         }
 
   

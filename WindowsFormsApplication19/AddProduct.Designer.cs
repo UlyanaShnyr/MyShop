@@ -30,11 +30,11 @@
         {
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
+            this.Price = new System.Windows.Forms.TextBox();
+            this.Action = new System.Windows.Forms.TextBox();
+            this.Number = new System.Windows.Forms.TextBox();
+            this.ProductsName = new System.Windows.Forms.TextBox();
+            this.Save = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -60,58 +60,58 @@
             this.label1.TabIndex = 3;
             this.label1.Text = "\"SportsEat\"";
             // 
-            // textBox3
+            // Price
             // 
-            this.textBox3.ForeColor = System.Drawing.Color.Gray;
-            this.textBox3.Location = new System.Drawing.Point(42, 187);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(389, 20);
-            this.textBox3.TabIndex = 41;
-            this.textBox3.Text = "Ціна";
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            this.Price.ForeColor = System.Drawing.Color.Gray;
+            this.Price.Location = new System.Drawing.Point(42, 187);
+            this.Price.Name = "Price";
+            this.Price.Size = new System.Drawing.Size(389, 20);
+            this.Price.TabIndex = 41;
+            this.Price.Text = "Ціна";
+            this.Price.TextChanged += new System.EventHandler(this.Price_TextChanged);
             // 
-            // textBox2
+            // Action
             // 
-            this.textBox2.ForeColor = System.Drawing.Color.Gray;
-            this.textBox2.Location = new System.Drawing.Point(42, 161);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(389, 20);
-            this.textBox2.TabIndex = 40;
-            this.textBox2.Text = "Акція";
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.Action.ForeColor = System.Drawing.Color.Gray;
+            this.Action.Location = new System.Drawing.Point(42, 161);
+            this.Action.Name = "Action";
+            this.Action.Size = new System.Drawing.Size(389, 20);
+            this.Action.TabIndex = 40;
+            this.Action.Text = "Акція";
+            this.Action.TextChanged += new System.EventHandler(this.Action_TextChanged);
             // 
-            // textBox1
+            // Number
             // 
-            this.textBox1.ForeColor = System.Drawing.Color.Gray;
-            this.textBox1.Location = new System.Drawing.Point(42, 135);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(389, 20);
-            this.textBox1.TabIndex = 39;
-            this.textBox1.Text = "Кількість";
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.Number.ForeColor = System.Drawing.Color.Gray;
+            this.Number.Location = new System.Drawing.Point(42, 135);
+            this.Number.Name = "Number";
+            this.Number.Size = new System.Drawing.Size(389, 20);
+            this.Number.TabIndex = 39;
+            this.Number.Text = "Кількість";
+            this.Number.TextChanged += new System.EventHandler(this.Number_TextChanged);
             // 
-            // textBox4
+            // ProductsName
             // 
-            this.textBox4.ForeColor = System.Drawing.Color.Gray;
-            this.textBox4.Location = new System.Drawing.Point(42, 109);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(389, 20);
-            this.textBox4.TabIndex = 38;
-            this.textBox4.Text = "Назва товару";
-            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
+            this.ProductsName.ForeColor = System.Drawing.Color.Gray;
+            this.ProductsName.Location = new System.Drawing.Point(42, 109);
+            this.ProductsName.Name = "ProductsName";
+            this.ProductsName.Size = new System.Drawing.Size(389, 20);
+            this.ProductsName.TabIndex = 38;
+            this.ProductsName.Text = "Назва товару";
+            this.ProductsName.TextChanged += new System.EventHandler(this.ProductsName_TextChanged);
             // 
-            // button2
+            // Save
             // 
-            this.button2.BackColor = System.Drawing.Color.Red;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(41, 225);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(213, 34);
-            this.button2.TabIndex = 44;
-            this.button2.Text = "Зберегти";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.Save.BackColor = System.Drawing.Color.Red;
+            this.Save.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Save.ForeColor = System.Drawing.Color.White;
+            this.Save.Location = new System.Drawing.Point(41, 225);
+            this.Save.Name = "Save";
+            this.Save.Size = new System.Drawing.Size(213, 34);
+            this.Save.TabIndex = 44;
+            this.Save.Text = "Зберегти";
+            this.Save.UseVisualStyleBackColor = false;
+            this.Save.Click += new System.EventHandler(this.Save_Click);
             // 
             // label3
             // 
@@ -131,15 +131,16 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(484, 462);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.Save);
+            this.Controls.Add(this.Price);
+            this.Controls.Add(this.Action);
+            this.Controls.Add(this.Number);
+            this.Controls.Add(this.ProductsName);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "AddProduct";
-            this.Text = "Form6";
+            this.Text = "AddProduct";
+            this.TextChanged += new System.EventHandler(this.ProductsName_TextChanged);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -149,11 +150,11 @@
 
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox Price;
+        private System.Windows.Forms.TextBox Action;
+        private System.Windows.Forms.TextBox Number;
+        private System.Windows.Forms.TextBox ProductsName;
+        private System.Windows.Forms.Button Save;
         private System.Windows.Forms.Label label3;
     }
 }

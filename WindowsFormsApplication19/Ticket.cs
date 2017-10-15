@@ -17,23 +17,26 @@ namespace WindowsFormsApplication19
             InitializeComponent();
         }
 
-        private void label8_Click(object sender, EventArgs e)
+        private void Sale_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void textBox5_TextChanged(object sender, EventArgs e)
+        private void ProductsName_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void Back_Click(object sender, EventArgs e)
         {
 
             this.Hide();
-            //Form2 f2;
-            //f2 = new Form2();
-            //f2.ShowDialog();
+            
+        }
+
+        private void Print_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
