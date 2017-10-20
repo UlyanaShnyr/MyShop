@@ -148,8 +148,7 @@
             this.Controls.Add(this.Surname);
             this.Controls.Add(this.Name);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Name = "Registr";
+            this.Controls.Add(this.label1);            
             this.Text = "Registration";
             this.ResumeLayout(false);
             this.PerformLayout();

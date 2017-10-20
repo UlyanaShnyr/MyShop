@@ -37,7 +37,7 @@ namespace WindowsFormsApplication19
             Surname.TextChanged -= Surname_TextChanged;
             Surname.ForeColor = Color.Black;
         }
-Login
+
         private void PhoneNumber_TextChanged(object sender, EventArgs e)
         {
             PhoneNumber.Text = "";
