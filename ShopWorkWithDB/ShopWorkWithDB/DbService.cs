@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ShopWorkWithDB
 {
-    class ShopDbService
+    public class ShopDbService
     {
         ShopDB db = new ShopDB(new SqlConnectionStringBuilder()
         {
