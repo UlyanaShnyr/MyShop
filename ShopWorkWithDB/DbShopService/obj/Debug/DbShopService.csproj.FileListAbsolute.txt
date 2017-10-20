@@ -1,0 +1,2 @@
+c:\users\s25-r1\source\repos\ShopWorkWithDB\DbShopService\obj\Debug\DbShopService.csprojResolveAssemblyReference.cache
+c:\users\s25-r1\source\repos\ShopWorkWithDB\DbShopService\obj\Debug\DbShopService.csproj.CoreCompileInputs.cache

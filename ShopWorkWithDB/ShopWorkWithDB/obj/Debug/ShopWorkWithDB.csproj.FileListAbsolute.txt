@@ -1,0 +1,11 @@
+c:\users\s25-r1\source\repos\ShopWorkWithDB\ShopWorkWithDB\bin\Debug\ShopWorkWithDB.dll.config
+c:\users\s25-r1\source\repos\ShopWorkWithDB\ShopWorkWithDB\bin\Debug\ShopWorkWithDB.dll
+c:\users\s25-r1\source\repos\ShopWorkWithDB\ShopWorkWithDB\bin\Debug\ShopWorkWithDB.pdb
+c:\users\s25-r1\source\repos\ShopWorkWithDB\ShopWorkWithDB\bin\Debug\EntityFramework.dll
+c:\users\s25-r1\source\repos\ShopWorkWithDB\ShopWorkWithDB\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\s25-r1\source\repos\ShopWorkWithDB\ShopWorkWithDB\bin\Debug\EntityFramework.xml
+c:\users\s25-r1\source\repos\ShopWorkWithDB\ShopWorkWithDB\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\s25-r1\source\repos\ShopWorkWithDB\ShopWorkWithDB\obj\Debug\ShopWorkWithDB.csproj.CoreCompileInputs.cache
+c:\users\s25-r1\source\repos\ShopWorkWithDB\ShopWorkWithDB\obj\Debug\ShopWorkWithDB.dll
+c:\users\s25-r1\source\repos\ShopWorkWithDB\ShopWorkWithDB\obj\Debug\ShopWorkWithDB.pdb
+C:\Users\s25-r1\source\repos\ShopWorkWithDB\ShopWorkWithDB\obj\Debug\ShopWorkWithDB.csprojResolveAssemblyReference.cache

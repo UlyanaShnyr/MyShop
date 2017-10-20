@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopWorkWithDB", "ShopWorkWithDB\ShopWorkWithDB.csproj", "{AD0FD4AD-515A-42B1-AE69-A39A90B02142}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD0FD4AD-515A-42B1-AE69-A39A90B02142}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD0FD4AD-515A-42B1-AE69-A39A90B02142}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD0FD4AD-515A-42B1-AE69-A39A90B02142}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD0FD4AD-515A-42B1-AE69-A39A90B02142}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B6FE08AC-CB09-45B2-A208-D18803E26984}
+	EndGlobalSection
+EndGlobal
