@@ -30,68 +30,68 @@
         {
             this.label4 = new System.Windows.Forms.Label();
             this.AdminName = new System.Windows.Forms.TextBox();
-            this.Exit = new System.Windows.Forms.Button();
-            this.ListProducts = new System.Windows.Forms.ListBox();
+            this.btnExit = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.EditProduct = new System.Windows.Forms.Button();
-            this.AddProduct = new System.Windows.Forms.Button();
-            this.Save = new System.Windows.Forms.Button();
-            this.CashierRegisteration = new System.Windows.Forms.Button();
+            this.btnEditProduct = new System.Windows.Forms.Button();
+            this.btnPrintProduct = new System.Windows.Forms.Button();
+            this.dataGridViewProducts = new System.Windows.Forms.DataGridView();
+            this.dataGridViewCashier = new System.Windows.Forms.DataGridView();
+            this.btnPrintCashier = new System.Windows.Forms.Button();
+            this.btnEditCashier = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
+            this.btnCreateDataBase = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewProducts)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewCashier)).BeginInit();
             this.SuspendLayout();
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(6, 164);
+            this.label4.Location = new System.Drawing.Point(18, 481);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(52, 16);
+            this.label4.Size = new System.Drawing.Size(222, 20);
             this.label4.TabIndex = 32;
-            this.label4.Text = "Товар:";
+            this.label4.Text = "Форма Записів Товара";
             // 
             // AdminName
             // 
             this.AdminName.ForeColor = System.Drawing.Color.Gray;
-            this.AdminName.Location = new System.Drawing.Point(9, 135);
+            this.AdminName.Location = new System.Drawing.Point(181, 75);
+            this.AdminName.Margin = new System.Windows.Forms.Padding(4);
             this.AdminName.Name = "AdminName";
-            this.AdminName.Size = new System.Drawing.Size(209, 20);
+            this.AdminName.Size = new System.Drawing.Size(277, 22);
             this.AdminName.TabIndex = 31;
             this.AdminName.Text = "Ф.І.";
             this.AdminName.TextChanged += new System.EventHandler(this.AdminName_TextChanged);
             // 
-            // Exit
+            // btnExit
             // 
-            this.Exit.BackColor = System.Drawing.Color.Red;
-            this.Exit.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Exit.ForeColor = System.Drawing.Color.White;
-            this.Exit.Location = new System.Drawing.Point(687, 502);
-            this.Exit.Name = "Exit";
-            this.Exit.Size = new System.Drawing.Size(94, 40);
-            this.Exit.TabIndex = 30;
-            this.Exit.Text = "Вихід";
-            this.Exit.UseVisualStyleBackColor = false;
-            this.Exit.Click += new System.EventHandler(this.Exit_Click);
-            // 
-            // ListProducts
-            // 
-            this.ListProducts.FormattingEnabled = true;
-            this.ListProducts.Location = new System.Drawing.Point(10, 187);
-            this.ListProducts.Name = "ListProducts";
-            this.ListProducts.Size = new System.Drawing.Size(671, 355);
-            this.ListProducts.TabIndex = 24;
-            this.ListProducts.SelectedIndexChanged += new System.EventHandler(this.ListProducts_SelectedIndexChanged);
+            this.btnExit.BackColor = System.Drawing.Color.Red;
+            this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnExit.ForeColor = System.Drawing.Color.White;
+            this.btnExit.Location = new System.Drawing.Point(458, 870);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(4);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(272, 49);
+            this.btnExit.TabIndex = 30;
+            this.btnExit.Text = "Вихід";
+            this.btnExit.UseVisualStyleBackColor = false;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(6, 112);
+            this.label3.Location = new System.Drawing.Point(17, 71);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(123, 20);
+            this.label3.Size = new System.Drawing.Size(156, 25);
             this.label3.TabIndex = 22;
             this.label3.Text = "Адміністратор:";
             // 
@@ -100,9 +100,10 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(6, 73);
+            this.label2.Location = new System.Drawing.Point(679, 22);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(232, 20);
+            this.label2.Size = new System.Drawing.Size(282, 25);
             this.label2.TabIndex = 21;
             this.label2.Text = "Магазин спортивних добавок";
             // 
@@ -111,83 +112,135 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(18, 34);
+            this.label1.Location = new System.Drawing.Point(403, 9);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(205, 39);
+            this.label1.Size = new System.Drawing.Size(257, 52);
             this.label1.TabIndex = 20;
             this.label1.Text = "\"SportsEat\"";
             // 
-            // EditProduct
+            // btnEditProduct
             // 
-            this.EditProduct.BackColor = System.Drawing.Color.Red;
-            this.EditProduct.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.EditProduct.ForeColor = System.Drawing.Color.White;
-            this.EditProduct.Location = new System.Drawing.Point(687, 187);
-            this.EditProduct.Name = "EditProduct";
-            this.EditProduct.Size = new System.Drawing.Size(94, 41);
-            this.EditProduct.TabIndex = 33;
-            this.EditProduct.Text = "Редагувати";
-            this.EditProduct.UseVisualStyleBackColor = false;
-            this.EditProduct.Click += new System.EventHandler(this.EditProduct_Click);
+            this.btnEditProduct.BackColor = System.Drawing.Color.Red;
+            this.btnEditProduct.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnEditProduct.ForeColor = System.Drawing.Color.White;
+            this.btnEditProduct.Location = new System.Drawing.Point(1064, 643);
+            this.btnEditProduct.Margin = new System.Windows.Forms.Padding(4);
+            this.btnEditProduct.Name = "btnEditProduct";
+            this.btnEditProduct.Size = new System.Drawing.Size(161, 62);
+            this.btnEditProduct.TabIndex = 33;
+            this.btnEditProduct.Text = "Оновлення Записів Товара";
+            this.btnEditProduct.UseVisualStyleBackColor = false;
+            this.btnEditProduct.Click += new System.EventHandler(this.btnEditProduct_Click);
             // 
-            // AddProduct
+            // btnPrintProduct
             // 
-            this.AddProduct.BackColor = System.Drawing.Color.Red;
-            this.AddProduct.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.AddProduct.ForeColor = System.Drawing.Color.White;
-            this.AddProduct.Location = new System.Drawing.Point(687, 234);
-            this.AddProduct.Name = "AddProduct";
-            this.AddProduct.Size = new System.Drawing.Size(94, 60);
-            this.AddProduct.TabIndex = 34;
-            this.AddProduct.Text = "Додати новий товар";
-            this.AddProduct.UseVisualStyleBackColor = false;
-            this.AddProduct.Click += new System.EventHandler(this.AddProduct_Click);
+            this.btnPrintProduct.BackColor = System.Drawing.Color.Red;
+            this.btnPrintProduct.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnPrintProduct.ForeColor = System.Drawing.Color.White;
+            this.btnPrintProduct.Location = new System.Drawing.Point(1064, 573);
+            this.btnPrintProduct.Margin = new System.Windows.Forms.Padding(4);
+            this.btnPrintProduct.Name = "btnPrintProduct";
+            this.btnPrintProduct.Size = new System.Drawing.Size(161, 62);
+            this.btnPrintProduct.TabIndex = 34;
+            this.btnPrintProduct.Text = "Показати Записи Товарів";
+            this.btnPrintProduct.UseVisualStyleBackColor = false;
+            this.btnPrintProduct.Click += new System.EventHandler(this.btnPrintProduct_Click);
             // 
-            // Save
+            // dataGridViewProducts
             // 
-            this.Save.BackColor = System.Drawing.Color.Red;
-            this.Save.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Save.ForeColor = System.Drawing.Color.White;
-            this.Save.Location = new System.Drawing.Point(687, 456);
-            this.Save.Name = "Save";
-            this.Save.Size = new System.Drawing.Size(94, 40);
-            this.Save.TabIndex = 35;
-            this.Save.Text = "Зберегти";
-            this.Save.UseVisualStyleBackColor = false;
-            this.Save.Click += new System.EventHandler(this.Save_Click);
+            this.dataGridViewProducts.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewProducts.Location = new System.Drawing.Point(22, 504);
+            this.dataGridViewProducts.Name = "dataGridViewProducts";
+            this.dataGridViewProducts.RowTemplate.Height = 24;
+            this.dataGridViewProducts.Size = new System.Drawing.Size(1035, 298);
+            this.dataGridViewProducts.TabIndex = 37;
             // 
-            // CashierRegisteration
+            // dataGridViewCashier
             // 
-            this.CashierRegisteration.BackColor = System.Drawing.Color.Red;
-            this.CashierRegisteration.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.CashierRegisteration.ForeColor = System.Drawing.Color.White;
-            this.CashierRegisteration.Location = new System.Drawing.Point(470, 34);
-            this.CashierRegisteration.Name = "CashierRegisteration";
-            this.CashierRegisteration.Size = new System.Drawing.Size(211, 60);
-            this.CashierRegisteration.TabIndex = 36;
-            this.CashierRegisteration.Text = "Реєстрація касира";
-            this.CashierRegisteration.UseVisualStyleBackColor = false;
-            this.CashierRegisteration.Click += new System.EventHandler(this.CashierRegisteration_Click);
+            this.dataGridViewCashier.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewCashier.Location = new System.Drawing.Point(22, 143);
+            this.dataGridViewCashier.Name = "dataGridViewCashier";
+            this.dataGridViewCashier.RowTemplate.Height = 24;
+            this.dataGridViewCashier.Size = new System.Drawing.Size(1035, 298);
+            this.dataGridViewCashier.TabIndex = 38;
+            // 
+            // btnPrintCashier
+            // 
+            this.btnPrintCashier.BackColor = System.Drawing.Color.Red;
+            this.btnPrintCashier.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnPrintCashier.ForeColor = System.Drawing.Color.White;
+            this.btnPrintCashier.Location = new System.Drawing.Point(1063, 211);
+            this.btnPrintCashier.Name = "btnPrintCashier";
+            this.btnPrintCashier.Size = new System.Drawing.Size(160, 62);
+            this.btnPrintCashier.TabIndex = 39;
+            this.btnPrintCashier.Text = "Показати Записи Касирів";
+            this.btnPrintCashier.UseVisualStyleBackColor = false;
+            this.btnPrintCashier.Click += new System.EventHandler(this.btnPrintCashier_Click);
+            // 
+            // btnEditCashier
+            // 
+            this.btnEditCashier.BackColor = System.Drawing.Color.Red;
+            this.btnEditCashier.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnEditCashier.ForeColor = System.Drawing.Color.White;
+            this.btnEditCashier.Location = new System.Drawing.Point(1063, 279);
+            this.btnEditCashier.Name = "btnEditCashier";
+            this.btnEditCashier.Size = new System.Drawing.Size(160, 62);
+            this.btnEditCashier.TabIndex = 41;
+            this.btnEditCashier.Text = "Оновлення Записів Касирів";
+            this.btnEditCashier.UseVisualStyleBackColor = false;
+            this.btnEditCashier.Click += new System.EventHandler(this.btnEditCashier_Click);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(18, 120);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(227, 20);
+            this.label5.TabIndex = 32;
+            this.label5.Text = "Форма Записів Касирів";
+            // 
+            // btnCreateDataBase
+            // 
+            this.btnCreateDataBase.BackColor = System.Drawing.Color.Red;
+            this.btnCreateDataBase.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnCreateDataBase.ForeColor = System.Drawing.Color.White;
+            this.btnCreateDataBase.Location = new System.Drawing.Point(1064, 9);
+            this.btnCreateDataBase.Name = "btnCreateDataBase";
+            this.btnCreateDataBase.Size = new System.Drawing.Size(161, 62);
+            this.btnCreateDataBase.TabIndex = 42;
+            this.btnCreateDataBase.Text = "Створення Бази";
+            this.btnCreateDataBase.UseVisualStyleBackColor = false;
+            this.btnCreateDataBase.Click += new System.EventHandler(this.btnCreateDataBase_Click);
             // 
             // Admin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Red;
-            this.ClientSize = new System.Drawing.Size(784, 562);
-            this.Controls.Add(this.CashierRegisteration);
-            this.Controls.Add(this.Save);
-            this.Controls.Add(this.AddProduct);
-            this.Controls.Add(this.EditProduct);
+            this.ClientSize = new System.Drawing.Size(1236, 932);
+            this.Controls.Add(this.btnCreateDataBase);
+            this.Controls.Add(this.btnEditCashier);
+            this.Controls.Add(this.btnPrintCashier);
+            this.Controls.Add(this.dataGridViewCashier);
+            this.Controls.Add(this.dataGridViewProducts);
+            this.Controls.Add(this.btnPrintProduct);
+            this.Controls.Add(this.btnEditProduct);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.AdminName);
-            this.Controls.Add(this.Exit);
-            this.Controls.Add(this.ListProducts);
+            this.Controls.Add(this.btnExit);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Admin";
             this.Text = "Admin";
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewProducts)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewCashier)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -197,14 +250,17 @@
 
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox AdminName;
-        private System.Windows.Forms.Button Exit;
-        private System.Windows.Forms.ListBox ListProducts;
+        private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button EditProduct;
-        private System.Windows.Forms.Button AddProduct;
-        private System.Windows.Forms.Button Save;
-        private System.Windows.Forms.Button CashierRegisteration;
+        private System.Windows.Forms.Button btnEditProduct;
+        private System.Windows.Forms.Button btnPrintProduct;
+        private System.Windows.Forms.DataGridView dataGridViewProducts;
+        private System.Windows.Forms.DataGridView dataGridViewCashier;
+        private System.Windows.Forms.Button btnPrintCashier;
+        private System.Windows.Forms.Button btnEditCashier;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button btnCreateDataBase;
     }
 }

@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WindowsFormsApplication19</name>
+    </assembly>
+    <members>
+        <member name="F:WindowsFormsApplication19.Login.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication19.Login.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WindowsFormsApplication19.Login.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:WindowsFormsApplication19.Cashier.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication19.Cashier.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WindowsFormsApplication19.Cashier.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication19.Admin">
+            <summary>
+            клас Адмін
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication19.Admin.#ctor(WindowsFormsApplication19.Login)">
+            <summary>
+            конструктор Адміна .
+            </summary>
+            <param name="mainForm"></param>
+        </member>
+        <member name="M:WindowsFormsApplication19.Admin.GetConnectionString">
+            <summary>
+            Стрічка підключення до бази данних 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WindowsFormsApplication19.Admin.btnPrintCashier_Click(System.Object,System.EventArgs)">
+            <summary>
+            Кнопка переглянути Касирів які є в базі данних і помістити у DataGridView таблицю
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WindowsFormsApplication19.Admin.btnEditCashier_Click(System.Object,System.EventArgs)">
+            <summary>
+            Кнопка Редагування Касирів можна прямо із таблиці і нажати кнопку EditCashire
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WindowsFormsApplication19.Admin.AdminName_TextChanged(System.Object,System.EventArgs)">
+            <summary>
+            текстбокс Адміністратор
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WindowsFormsApplication19.Admin.btnPrintProduct_Click(System.Object,System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WindowsFormsApplication19.Admin.btnExit_Click(System.Object,System.EventArgs)">
+            <summary>
+            Кнопка Виходу із форми Адміна на форму Логовання 
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WindowsFormsApplication19.Admin.btnCreateDataBase_Click(System.Object,System.EventArgs)">
+            <summary>
+            Кнопка створення бази данних якщо її не має.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:WindowsFormsApplication19.Admin.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication19.Admin.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WindowsFormsApplication19.Admin.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:WindowsFormsApplication19.Ticket.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication19.Ticket.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WindowsFormsApplication19.Ticket.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication19.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication19.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:WindowsFormsApplication19.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:WindowsFormsApplication19.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>
