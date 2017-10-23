@@ -1,0 +1,4 @@
+D:\с++\C#\ConsoleApplication1\WriteToExcel\bin\Debug\WriteToExcel.dll
+D:\с++\C#\ConsoleApplication1\WriteToExcel\bin\Debug\WriteToExcel.pdb
+D:\с++\C#\ConsoleApplication1\WriteToExcel\obj\Debug\WriteToExcel.dll
+D:\с++\C#\ConsoleApplication1\WriteToExcel\obj\Debug\WriteToExcel.pdb
