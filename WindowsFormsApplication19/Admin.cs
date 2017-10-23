@@ -68,8 +68,15 @@ namespace WindowsFormsApplication19
         /// <param name="e"></param>
         private void btnEditCashier_Click(object sender, EventArgs e)
         {
-            scb = new SqlCommandBuilder(sda);
-            sda.Update(dt);
+            try
+            {
+                scb = new SqlCommandBuilder(sda);
+                sda.Update(dt);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
         }
         /// <summary>
         /// текстбокс Адміністратор
@@ -110,8 +117,16 @@ namespace WindowsFormsApplication19
         }
         private void btnEditProduct_Click(object sender, EventArgs e)
         {
-            scb = new SqlCommandBuilder(sda);
-            sda.Update(dt);
+            try
+            {
+                scb = new SqlCommandBuilder(sda);
+                sda.Update(dt);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+
 
         }
         /// <summary>
