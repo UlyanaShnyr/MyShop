@@ -8,11 +8,13 @@ namespace WindowsFormsApplication19
     public partial class Admin : Form
     {
         ShopDbService dbService;
+        User user;
 
-        public Admin(ShopDbService dbService)
+        public Admin(ShopDbService dbService, User user)
         {
             InitializeComponent();
             this.dbService = dbService;
+            this.user = user;
         }
 
         private void AddProduct_Click(object sender, EventArgs e)

@@ -8,11 +8,13 @@ namespace WindowsFormsApplication19
     public partial class Cashier : Form
     {
         ShopDbService dbService;
-        
-        public Cashier(ShopDbService dbService)
+        User user;
+
+        public Cashier(ShopDbService dbService, User user)
         {
             InitializeComponent();
             this.dbService = dbService;
+            this.user = user;
         }
 
         private void Check_Click(object sender, EventArgs e)

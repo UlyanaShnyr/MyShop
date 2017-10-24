@@ -142,6 +142,22 @@ namespace ShopWorkWithDB
             return user.Login + " " + user.Password;
         }
 
+        /// <summary>
+        /// Функція яка перевіряє чи є такий Користувач(Адмін, Касир) з таким іменем та паролем          
+        /// </summary>
+        /// <param name="Name"> І'мя Користувача </param>
+        /// <param name="Password"> Пароль Користувача </param>
+        /// <returns>Якщо є то повертає Користувача, інкакше повертає null</returns>
+        public User CheckingUser(string Login, string Password)
+        {
+            User user = db.Users.FirstOrDefault(x => x.Login == Login);
+            if(user != null)
+            {
+                if (user.Password == Password) return user;
+            }
+            return null;
+        }
+
     }
 
 }

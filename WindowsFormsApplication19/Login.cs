@@ -13,7 +13,7 @@ namespace WindowsFormsApplication19
         {
             InitializeComponent();
             dbService = new ShopDbService();
-            dbService.DB.Users.Add(new User() { Login = "Vasyl", Name = "Vasyl", Surname = "Korobnikov", Password = "123", Phone = "empty", Role = "Cashier" });
+            dbService.DB.Users.Add(new User() { Login = "Admin", Name = "Ura", Surname = "Melenuk", Password = "111", Phone = "empty", Role = "Admin" });
             dbService.DB.SaveChanges();
         }
 
@@ -21,28 +21,37 @@ namespace WindowsFormsApplication19
         {
 
         }
-              
+
+        /// <summary>
+        /// Метод обробник входу Користувачів та адмінів
+        /// Відповідно до ролі відкриває відповідну форму
+        /// </summary>                 
 
         private void Enter_Click(object sender, EventArgs e)
         {
-            string c = "1";
-            string a = "2";
-            if (LoginName.Text == c)
+            User user = dbService.CheckingUser(LoginName.Text, Password.Text);
+            if(user == null)
+            {                
+                MessageBox.Show("Wrong Login or Password");
+            }     
+            else
             {
-                Cashier f2;
-                f2 = new Cashier(dbService);
-                this.Hide();
-                f2.ShowDialog();
+                this.Hide();                
+                switch (user.Role)
+                {
+                    case "Admin":
+                        new Admin(dbService, user).ShowDialog();
+                        break;
+                    case "Cashier":
+                        new Cashier(dbService, user).ShowDialog();
+                        break;
+                    default:
+                        MessageBox.Show("Something went wrong");
+                        break;
+                }
+                this.Show();
             }
-            if (LoginName.Text == a)
-            {
-                Admin f3;
-                f3 = new Admin(dbService);
-                this.Hide();
-                f3.ShowDialog();
-            }
-            
-          
+            LoginName.Text = Password.Text = "";
         }
 
         private void Login_FormClosed(object sender, FormClosedEventArgs e)

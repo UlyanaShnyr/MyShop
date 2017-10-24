@@ -15,11 +15,8 @@ namespace ShopWorkWithDB
 
             public string Name { get; set; }
 
-
             public List<Product> Products { get; set; }
-
-
-        }
+        }        
 
 
         [Table("User")]
@@ -28,7 +25,7 @@ namespace ShopWorkWithDB
             [Key]
             public int Id { get; set; }
 
-
+            [Index(IsUnique = true)]
             public string Name { get; set; }
 
   
