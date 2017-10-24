@@ -9,7 +9,7 @@ namespace ShopWorkWithDB
 {
     public class ShopDbService
     {
-        ShopDB db = new ShopDB(new SqlConnectionStringBuilder()
+        private ShopDB db = new ShopDB(new SqlConnectionStringBuilder()
         {
             DataSource = @"ShopDataBase.mssql.somee.com",
             InitialCatalog = "ShopDataBase",
@@ -22,7 +22,11 @@ namespace ShopWorkWithDB
 
         }.ConnectionString);
 
-
+        public ShopDB DB
+        {
+            get { return db; }
+        }
+                
 
         public bool AddLocations(string locationName)
         {
@@ -33,7 +37,7 @@ namespace ShopWorkWithDB
 
         public int AddProductDiscount(int idProduct, int percent)
         {
-            db.Products.Where(product => product.Id == idProduct).First()._Discount.Percent = percent;
+            db.Products.Where(product => product.Id == idProduct).First().Discount.Percent = percent;
             db.SaveChanges();
             return percent;
         }
@@ -48,29 +52,30 @@ namespace ShopWorkWithDB
 
         public int AddUserDiscount(int idUser, int percent)
         {
-            db.Users.Where(user => user.Id == idUser).First()._Discount.Percent = percent;
+            db.Users.Where(user => user.Id == idUser).First().Discount.Percent = percent;
             db.SaveChanges();
             return percent;
         }
+        
 
         public int CheckDiscount(Product product)
         {
-            return product._Discount.Percent;
+            return product.Discount.Percent;
         }
 
         public int CheckDiscount(User user)
         {
-            return user._Discount.Percent;
+            return user.Discount.Percent;
         }
 
-        public int Enter(User user)
+        public string Enter(User user)
         {
             var _user = db.Users.Where(x => x.Login == user.Login && x.Password == user.Password).First();
             if (_user != null)
             {
                 return user.Role;
             }
-            return -1;
+            return null;
         }
 
         public bool FormatSale(Sale sale, int idLocation)
@@ -80,9 +85,9 @@ namespace ShopWorkWithDB
             {
                 foreach (var saled in sale.SaledProducts)
                 {
-                    if (item._Type == saled._Type && saled._Count <= item._Count)
+                    if (item.Type == saled.Type && saled.Count <= item.Count)
                     {
-                        item._Count -= saled._Count;
+                        item.Count -= saled.Count;
                         db.Sales.Add(sale);
                         db.SaveChanges();
                         return true;

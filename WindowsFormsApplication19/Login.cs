@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Drawing;
 using ShopWorkWithDB;
 using System.Windows.Forms;
 
@@ -11,7 +12,9 @@ namespace WindowsFormsApplication19
         public Login()
         {
             InitializeComponent();
-            dbService = new ShopDbService();            
+            dbService = new ShopDbService();
+            dbService.DB.Users.Add(new User() { Login = "Vasyl", Name = "Vasyl", Surname = "Korobnikov", Password = "123", Phone = "empty", Role = "Cashier" });
+            dbService.DB.SaveChanges();
         }
 
         private void SportsEat_Click(object sender, EventArgs e)

@@ -24,13 +24,13 @@ namespace WindowsFormsApplication19
 
         private void Exit_Click(object sender, EventArgs e)
         {           
-            this.Hide();
-            mainForm.Show();          
+            
+                    
         }
 
         private void Cashier_FormClosing(object sender, FormClosingEventArgs e)
         {
-            mainForm.Show();
+            
         }
 
         private void Actions_TextChanged(object sender, EventArgs e)

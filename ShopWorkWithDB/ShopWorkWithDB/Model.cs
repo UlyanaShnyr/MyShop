@@ -3,13 +3,9 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ShopWorkWithDB
-{
- 
+    { 
 
         [Table("Location")]
         public class Location
@@ -42,18 +38,16 @@ namespace ShopWorkWithDB
             public string Password { get; set; }
 
 
-
             public string Login { get; set; }
-
 
 
             public string Phone { get; set; }
 
 
-            public int Role { get; set; }
+            public string Role { get; set; }
 
 
-            public Discount _Discount { get; set; }
+            public Discount Discount { get; set; }
         }
 
 
@@ -65,7 +59,6 @@ namespace ShopWorkWithDB
 
      
             public int Percent { get; set; }
-
 
 
             public string Description { get; set; }
@@ -96,12 +89,12 @@ namespace ShopWorkWithDB
             public double Price { get; set; }
 
 
-            public Discount _Discount { get; set; }
+            public Discount Discount { get; set; }
             
-            public ProductType _Type { get; set; }
+            public ProductType Type { get; set; }
 
 
-            public int _Count { get; set; }
+            public int Count { get; set; }
 
 
         }
@@ -145,7 +138,7 @@ namespace ShopWorkWithDB
         }
 
 
-       internal class ShopDB : DbContext
+       public class ShopDB : DbContext
         {
             public ShopDB(string connection) : base(connection) { }
             public virtual DbSet<User> Users { get; set; }
@@ -153,9 +146,8 @@ namespace ShopWorkWithDB
             public virtual DbSet<Sale> Sales { get; set; }
             public virtual DbSet<Location> Locatoins { get; set; }
             public virtual DbSet<Move> Move { get; set; }
-            public virtual DbSet<Discount> Discount { get; set; }
+            public virtual DbSet<Discount> Discounts { get; set; }
             public virtual DbSet<ProductType> ProductTypes { get; set; }
-
         }
     
 }
