@@ -33,7 +33,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ShopWorkWithDB">
-      <HintPath>..\ShopWorkWithDB\ShopWorkWithDB\bin\Debug\ShopWorkWithDB.dll</HintPath>
+      <HintPath>..\ShopWorkWithDB\ShopWorkWithDB\bin\Release\ShopWorkWithDB.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -126,9 +126,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

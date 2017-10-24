@@ -11,11 +11,15 @@ namespace ShopWorkWithDB
     {
         ShopDB db = new ShopDB(new SqlConnectionStringBuilder()
         {
-            DataSource = @"RUSLAN\SQLEXPRESS",
-            InitialCatalog = "AccountigSystem",
+            DataSource = @"ShopDataBase.mssql.somee.com",
+            InitialCatalog = "ShopDataBase",
             IntegratedSecurity = false,
-            UserID = "sa",
-            Password = "1",
+            UserID = "kosmi4_SQLLogin_2",
+            Password = "hb29w57hmo",
+            WorkstationID = "ShopDataBase.mssql.somee.com",
+            PacketSize = 4096,
+            PersistSecurityInfo = false,
+
         }.ConnectionString);
 
 
@@ -27,9 +31,9 @@ namespace ShopWorkWithDB
             return true;
         }
 
-        public int AddProductDiscont(int idProduct, int percent)
+        public int AddProductDiscount(int idProduct, int percent)
         {
-            db.Products.Where(product => product.Id == idProduct).First()._Discont.Percent = percent;
+            db.Products.Where(product => product.Id == idProduct).First()._Discount.Percent = percent;
             db.SaveChanges();
             return percent;
         }
@@ -42,21 +46,21 @@ namespace ShopWorkWithDB
             return db.ProductTypes.ToList();
         }
 
-        public int AddUserDiscont(int idUser, int percent)
+        public int AddUserDiscount(int idUser, int percent)
         {
-            db.Users.Where(user => user.Id == idUser).First()._Discont.Percent = percent;
+            db.Users.Where(user => user.Id == idUser).First()._Discount.Percent = percent;
             db.SaveChanges();
             return percent;
         }
 
-        public int CheckDiscont(Product product)
+        public int CheckDiscount(Product product)
         {
-            return product._Discont.Percent;
+            return product._Discount.Percent;
         }
 
-        public int CheckDiscont(User user)
+        public int CheckDiscount(User user)
         {
-            return user._Discont.Percent;
+            return user._Discount.Percent;
         }
 
         public int Enter(User user)
@@ -117,10 +121,6 @@ namespace ShopWorkWithDB
         {
             return db.ProductTypes.ToList();
         }
-
-
-
-
 
         public bool Move(int idFrom, int idTo, List<Product> products)
         {

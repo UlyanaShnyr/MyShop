@@ -20,3 +20,13 @@ C:\Users\s25-r1\Desktop\MyShop\ShopWorkWithDB\ShopWorkWithDB\obj\Debug\ShopWorkW
 C:\Users\s25-r1\Desktop\MyShop\ShopWorkWithDB\ShopWorkWithDB\obj\Debug\ShopWorkWithDB.csproj.CoreCompileInputs.cache
 C:\Users\s25-r1\Desktop\MyShop\ShopWorkWithDB\ShopWorkWithDB\obj\Debug\ShopWorkWithDB.dll
 C:\Users\s25-r1\Desktop\MyShop\ShopWorkWithDB\ShopWorkWithDB\obj\Debug\ShopWorkWithDB.pdb
+C:\Users\Dmitrii\Desktop\MyShop\ShopWorkWithDB\ShopWorkWithDB\bin\Debug\ShopWorkWithDB.dll.config
+C:\Users\Dmitrii\Desktop\MyShop\ShopWorkWithDB\ShopWorkWithDB\bin\Debug\ShopWorkWithDB.dll
+C:\Users\Dmitrii\Desktop\MyShop\ShopWorkWithDB\ShopWorkWithDB\bin\Debug\ShopWorkWithDB.pdb
+C:\Users\Dmitrii\Desktop\MyShop\ShopWorkWithDB\ShopWorkWithDB\bin\Debug\EntityFramework.dll
+C:\Users\Dmitrii\Desktop\MyShop\ShopWorkWithDB\ShopWorkWithDB\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dmitrii\Desktop\MyShop\ShopWorkWithDB\ShopWorkWithDB\bin\Debug\EntityFramework.xml
+C:\Users\Dmitrii\Desktop\MyShop\ShopWorkWithDB\ShopWorkWithDB\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dmitrii\Desktop\MyShop\ShopWorkWithDB\ShopWorkWithDB\obj\Debug\ShopWorkWithDB.csprojResolveAssemblyReference.cache
+C:\Users\Dmitrii\Desktop\MyShop\ShopWorkWithDB\ShopWorkWithDB\obj\Debug\ShopWorkWithDB.dll
+C:\Users\Dmitrii\Desktop\MyShop\ShopWorkWithDB\ShopWorkWithDB\obj\Debug\ShopWorkWithDB.pdb

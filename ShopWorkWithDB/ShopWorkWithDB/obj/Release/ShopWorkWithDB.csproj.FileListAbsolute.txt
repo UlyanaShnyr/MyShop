@@ -1,0 +1,10 @@
+C:\Users\Dmitrii\Desktop\MyShop\ShopWorkWithDB\ShopWorkWithDB\bin\Release\ShopWorkWithDB.dll.config
+C:\Users\Dmitrii\Desktop\MyShop\ShopWorkWithDB\ShopWorkWithDB\bin\Release\ShopWorkWithDB.dll
+C:\Users\Dmitrii\Desktop\MyShop\ShopWorkWithDB\ShopWorkWithDB\bin\Release\ShopWorkWithDB.pdb
+C:\Users\Dmitrii\Desktop\MyShop\ShopWorkWithDB\ShopWorkWithDB\bin\Release\EntityFramework.dll
+C:\Users\Dmitrii\Desktop\MyShop\ShopWorkWithDB\ShopWorkWithDB\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Dmitrii\Desktop\MyShop\ShopWorkWithDB\ShopWorkWithDB\bin\Release\EntityFramework.xml
+C:\Users\Dmitrii\Desktop\MyShop\ShopWorkWithDB\ShopWorkWithDB\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Dmitrii\Desktop\MyShop\ShopWorkWithDB\ShopWorkWithDB\obj\Release\ShopWorkWithDB.csprojResolveAssemblyReference.cache
+C:\Users\Dmitrii\Desktop\MyShop\ShopWorkWithDB\ShopWorkWithDB\obj\Release\ShopWorkWithDB.dll
+C:\Users\Dmitrii\Desktop\MyShop\ShopWorkWithDB\ShopWorkWithDB\obj\Release\ShopWorkWithDB.pdb

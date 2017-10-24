@@ -58,3 +58,6 @@ C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsA
 C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.csproj.CoreCompileInputs.cache
 C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.exe
 C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.pdb
+C:\Users\Dmitrii\Desktop\MyShop\WindowsFormsApplication19\bin\Debug\WindowsFormsApplication19.exe.config
+C:\Users\Dmitrii\Desktop\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.exe
+C:\Users\Dmitrii\Desktop\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.pdb

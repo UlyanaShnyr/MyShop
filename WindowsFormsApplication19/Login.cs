@@ -1,20 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using ShopWorkWithDB;
 using System.Windows.Forms;
 
 namespace WindowsFormsApplication19
 {
     public partial class Login : Form
     {
+        ShopDbService dbService;
+
         public Login()
         {
             InitializeComponent();
+            dbService = new ShopDbService();            
         }
 
         private void SportsEat_Click(object sender, EventArgs e)
@@ -30,14 +27,14 @@ namespace WindowsFormsApplication19
             if (LoginName.Text == c)
             {
                 Cashier f2;
-                f2 = new Cashier(this);
+                f2 = new Cashier(dbService);
                 this.Hide();
                 f2.ShowDialog();
             }
             if (LoginName.Text == a)
             {
                 Admin f3;
-                f3 = new Admin(this);
+                f3 = new Admin(dbService);
                 this.Hide();
                 f3.ShowDialog();
             }
