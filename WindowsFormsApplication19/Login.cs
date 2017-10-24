@@ -12,9 +12,7 @@ namespace WindowsFormsApplication19
         public Login()
         {
             InitializeComponent();
-            dbService = new ShopDbService();
-            dbService.DB.Users.Add(new User() { Login = "Admin", Name = "Ura", Surname = "Melenuk", Password = "111", Phone = "empty", Role = "Admin" });
-            dbService.DB.SaveChanges();
+            dbService = new ShopDbService();            
         }
 
         private void SportsEat_Click(object sender, EventArgs e)
