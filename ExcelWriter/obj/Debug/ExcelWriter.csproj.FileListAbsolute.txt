@@ -1,0 +1,12 @@
+D:\с++\C#\ConsoleApplication1\ExcelWriter\bin\Debug\ExcelWriter.dll
+D:\с++\C#\ConsoleApplication1\ExcelWriter\bin\Debug\ExcelWriter.pdb
+D:\с++\C#\ConsoleApplication1\ExcelWriter\bin\Debug\ShopWorkWithDB.dll
+D:\с++\C#\ConsoleApplication1\ExcelWriter\bin\Debug\EntityFramework.dll
+D:\с++\C#\ConsoleApplication1\ExcelWriter\bin\Debug\ShopWorkWithDB.pdb
+D:\с++\C#\ConsoleApplication1\ExcelWriter\bin\Debug\EntityFramework.xml
+D:\с++\C#\ConsoleApplication1\ExcelWriter\obj\Debug\ExcelWriter.dll
+D:\с++\C#\ConsoleApplication1\ExcelWriter\obj\Debug\ExcelWriter.pdb
+C:\Users\User\Desktop\ExcelWriter\ExcelWriter\bin\Debug\ExcelWriter.dll
+C:\Users\User\Desktop\ExcelWriter\ExcelWriter\bin\Debug\ExcelWriter.pdb
+C:\Users\User\Desktop\ExcelWriter\ExcelWriter\obj\Debug\ExcelWriter.dll
+C:\Users\User\Desktop\ExcelWriter\ExcelWriter\obj\Debug\ExcelWriter.pdb
