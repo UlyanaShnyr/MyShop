@@ -13,18 +13,12 @@ namespace WindowsFormsApplication19
         {
             InitializeComponent();
             dbService = new ShopDbService();            
-        }
-
-        private void SportsEat_Click(object sender, EventArgs e)
-        {
-
-        }
+        }       
 
         /// <summary>
         /// Метод обробник входу Користувачів та адмінів
         /// Відповідно до ролі відкриває відповідну форму
-        /// </summary>                 
-
+        /// </summary> 
         private void Enter_Click(object sender, EventArgs e)
         {
             User user = dbService.CheckingUser(LoginName.Text, Password.Text);

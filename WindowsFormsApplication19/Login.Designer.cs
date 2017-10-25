@@ -45,7 +45,6 @@
             this.SportsEat.Size = new System.Drawing.Size(205, 39);
             this.SportsEat.TabIndex = 0;
             this.SportsEat.Text = "\"SportsEat\"";
-            this.SportsEat.Click += new System.EventHandler(this.SportsEat_Click);
             // 
             // labelshop
             // 

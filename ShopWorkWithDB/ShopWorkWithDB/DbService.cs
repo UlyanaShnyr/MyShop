@@ -1,32 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data.SqlClient;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Configuration;
+
 
 namespace ShopWorkWithDB
 {
     public class ShopDbService
     {
-        private ShopDB db = new ShopDB(new SqlConnectionStringBuilder()
-        {
-            DataSource = @"ShopDataBase.mssql.somee.com",
-            InitialCatalog = "ShopDataBase",
-            IntegratedSecurity = false,
-            UserID = "kosmi4_SQLLogin_2",
-            Password = "hb29w57hmo",
-            WorkstationID = "ShopDataBase.mssql.somee.com",
-            PacketSize = 4096,
-            PersistSecurityInfo = false,
-
-        }.ConnectionString);
+        private ShopDB db = new ShopDB(ConfigurationManager.ConnectionStrings["Default"].ConnectionString);
 
         public ShopDB DB
         {
             get { return db; }
-        }
-                
+        }                
 
         public bool AddLocations(string locationName)
         {
