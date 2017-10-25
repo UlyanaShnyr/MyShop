@@ -15,34 +15,23 @@ namespace WindowsFormsApplication19
             InitializeComponent();
             this.dbService = dbService;
             this.user = user;
+            textBoxCashierName.Text = string.Format("{0} {1}", user.Name, user.Surname);
+
         }
 
         private void Check_Click(object sender, EventArgs e)
         {
-            Ticket f4;
-            f4 = new Ticket();
-            f4.ShowDialog();
+            
         }
 
         private void Exit_Click(object sender, EventArgs e)
         {           
             
                     
-        }
+        }   
 
-        private void Cashier_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            
-        }
+       
 
-        private void Actions_TextChanged(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void CashierName_TextChanged(object sender, EventArgs e)
-        {
-            
-        }
+        
     }
 }

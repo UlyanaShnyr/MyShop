@@ -66,8 +66,6 @@ C:\Users\Dmitrii\Desktop\MyShop\WindowsFormsApplication19\obj\Debug\WindowsForms
 C:\Users\Dmitrii\Desktop\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.Cashier.resources
 C:\Users\Dmitrii\Desktop\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.Admin.resources
 C:\Users\Dmitrii\Desktop\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.Ticket.resources
-C:\Users\Dmitrii\Desktop\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.Registr.resources
-C:\Users\Dmitrii\Desktop\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.AddProduct.resources
 C:\Users\Dmitrii\Desktop\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.Properties.Resources.resources
 C:\Users\Dmitrii\Desktop\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.csproj.GenerateResource.Cache
 C:\Users\Dmitrii\Desktop\MyShop\WindowsFormsApplication19\bin\Debug\WindowsFormsApplication19.exe
@@ -99,3 +97,4 @@ C:\Users\Юра\C# Project\GitUraShop(v. 4.0 new version)\MyShop\WindowsFormsApp
 C:\Users\Юра\C# Project\GitUraShop(v. 4.0 new version)\MyShop\WindowsFormsApplication19\bin\Debug\ShopWorkWithDB.pdb
 C:\Users\Юра\C# Project\GitUraShop(v. 4.0 new version)\MyShop\WindowsFormsApplication19\bin\Debug\ShopWorkWithDB.dll.config
 C:\Users\Юра\C# Project\GitUraShop(v. 4.0 new version)\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.AdminProducts.resources
+C:\Users\Dmitrii\Desktop\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.AdminProducts.resources
