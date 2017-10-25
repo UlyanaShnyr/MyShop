@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using ExcelWriter;
 using ShopWorkWithDB;
 
- 
+
 namespace ConsoleAppTestFinaly
 {
     class Program
