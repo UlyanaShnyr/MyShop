@@ -83,6 +83,7 @@
     <Compile Include="Admin.Designer.cs">
       <DependentUpon>Admin.cs</DependentUpon>
     </Compile>
+    <Compile Include="Models\TicketModel.cs" />
     <Compile Include="Ticket.cs">
       <SubType>Form</SubType>
     </Compile>

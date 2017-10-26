@@ -12,9 +12,12 @@ namespace WindowsFormsApplication19
 {
     public partial class Ticket : Form
     {
-        public Ticket()
+        TicketModel model;
+
+        public Ticket(TicketModel model)
         {
             InitializeComponent();
+            this.model = model;
         }
 
         private void Sale_Click(object sender, EventArgs e)

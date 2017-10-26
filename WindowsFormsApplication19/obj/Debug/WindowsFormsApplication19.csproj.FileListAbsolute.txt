@@ -76,6 +76,7 @@ C:\Users\Dmitrii\Desktop\MyShop\WindowsFormsApplication19\bin\Debug\ShopWorkWith
 C:\Users\Dmitrii\Desktop\MyShop\WindowsFormsApplication19\bin\Debug\EntityFramework.xml
 C:\Users\Dmitrii\Desktop\MyShop\WindowsFormsApplication19\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Dmitrii\Desktop\MyShop\WindowsFormsApplication19\bin\Debug\EntityFramework.SqlServer.xml
+<<<<<<< HEAD
 C:\Users\Юра\C# Project\GitUraShop(v. 4.0 new version)\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.csprojResolveAssemblyReference.cache
 C:\Users\Юра\C# Project\GitUraShop(v. 4.0 new version)\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.Login.resources
 C:\Users\Юра\C# Project\GitUraShop(v. 4.0 new version)\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.Cashier.resources
@@ -98,3 +99,12 @@ C:\Users\Юра\C# Project\GitUraShop(v. 4.0 new version)\MyShop\WindowsFormsApp
 C:\Users\Юра\C# Project\GitUraShop(v. 4.0 new version)\MyShop\WindowsFormsApplication19\bin\Debug\ShopWorkWithDB.dll.config
 C:\Users\Юра\C# Project\GitUraShop(v. 4.0 new version)\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.AdminProducts.resources
 C:\Users\Dmitrii\Desktop\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.AdminProducts.resources
+=======
+C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\bin\Debug\EntityFramework.dll
+C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\bin\Debug\ShopWorkWithDB.dll
+C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\bin\Debug\EntityFramework.xml
+C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\bin\Debug\ShopWorkWithDB.pdb
+C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\bin\Debug\ShopWorkWithDB.dll.config
+>>>>>>> DmytroKhomyshyn
