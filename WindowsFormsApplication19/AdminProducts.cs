@@ -39,31 +39,32 @@ namespace WindowsFormsApplication19
             return @"Data Source=ShopDataBase.mssql.somee.com; Initial Catalog=ShopDataBase; Integrated Security=False; User ID=kosmi4_SQLLogin_2; Password=hb29w57hmo";
         }
         /// <summary>
-        /// Кнопка показати Продажі
+        /// Кнопка показати Знижки
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void btnPrintSale_Click(object sender, EventArgs e)
+        private void btnPrintDiscount_Click(object sender, EventArgs e)
         {
             try
             {
-                sda = new SqlDataAdapter("SELECT * FROM Sale", con);
+                sda = new SqlDataAdapter("SELECT * FROM Discount", con);
 
                 dt = new DataTable();
                 sda.Fill(dt);
-                dataGridViewSale.DataSource = dt;
+                dataGridViewDiscount.DataSource = dt;
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.ToString());
             }
+
         }
         /// <summary>
-        /// Кнопка Редагувати Продажі
+        /// Кнопка Редагувати Знижки
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void btnUpdateSale_Click(object sender, EventArgs e)
+        private void btnUpdateDiscount_Click(object sender, EventArgs e)
         {
             try
             {
@@ -75,6 +76,8 @@ namespace WindowsFormsApplication19
                 MessageBox.Show(ex.ToString());
             }
             MessageBox.Show("Updated", "Form Updated", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+
         }
         /// <summary>
         /// Кнопка Показати Тип Продукту
@@ -165,5 +168,7 @@ namespace WindowsFormsApplication19
         {
             this.Hide();
         }
+
+        
     }
 }
