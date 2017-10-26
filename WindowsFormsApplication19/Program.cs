@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ShopWorkWithDB;
 
 namespace WindowsFormsApplication19
 {
@@ -16,7 +17,9 @@ namespace WindowsFormsApplication19
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Login());
+            Application.Run(new Ticket());
+            
+
         }
     }
 }

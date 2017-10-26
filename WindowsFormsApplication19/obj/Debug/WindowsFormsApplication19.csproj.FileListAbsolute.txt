@@ -29,3 +29,93 @@ C:\Users\user\Desktop\МійМагазин\WindowsFormsApplication19\obj\Debug\W
 C:\Users\user\Desktop\МійМагазин\MyShop\WindowsFormsApplication19\bin\Debug\WindowsFormsApplication19.exe.config
 C:\Users\user\Desktop\МійМагазин\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.exe
 C:\Users\user\Desktop\МійМагазин\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.pdb
+C:\Users\s25-r1\Desktop\shop\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.Login.resources
+C:\Users\s25-r1\Desktop\shop\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.Cashier.resources
+C:\Users\s25-r1\Desktop\shop\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.Admin.resources
+C:\Users\s25-r1\Desktop\shop\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.Ticket.resources
+C:\Users\s25-r1\Desktop\shop\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.Registr.resources
+C:\Users\s25-r1\Desktop\shop\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.AddProduct.resources
+C:\Users\s25-r1\Desktop\shop\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.Properties.Resources.resources
+C:\Users\s25-r1\Desktop\shop\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.csproj.GenerateResource.Cache
+C:\Users\s25-r1\Desktop\shop\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.csproj.CoreCompileInputs.cache
+C:\Users\s25-r1\Desktop\shop\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.exe
+C:\Users\s25-r1\Desktop\shop\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.pdb
+C:\Users\s25-r1\Desktop\shop\MyShop\WindowsFormsApplication19\bin\Debug\WindowsFormsApplication19.exe.config
+C:\Users\s25-r1\Desktop\shop\MyShop\WindowsFormsApplication19\bin\Debug\WindowsFormsApplication19.exe
+C:\Users\s25-r1\Desktop\shop\MyShop\WindowsFormsApplication19\bin\Debug\WindowsFormsApplication19.pdb
+C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\bin\Debug\WindowsFormsApplication19.exe.config
+C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\bin\Debug\WindowsFormsApplication19.exe
+C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\bin\Debug\WindowsFormsApplication19.pdb
+C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.csprojResolveAssemblyReference.cache
+C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.Login.resources
+C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.Cashier.resources
+C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.Admin.resources
+C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.Ticket.resources
+C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.Registr.resources
+C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.AddProduct.resources
+C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.Properties.Resources.resources
+C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.csproj.GenerateResource.Cache
+C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.csproj.CoreCompileInputs.cache
+C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.exe
+C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.pdb
+C:\Users\Dmitrii\Desktop\MyShop\WindowsFormsApplication19\bin\Debug\WindowsFormsApplication19.exe.config
+C:\Users\Dmitrii\Desktop\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.exe
+C:\Users\Dmitrii\Desktop\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.pdb
+C:\Users\Dmitrii\Desktop\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.csprojResolveAssemblyReference.cache
+C:\Users\Dmitrii\Desktop\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.Login.resources
+C:\Users\Dmitrii\Desktop\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.Cashier.resources
+C:\Users\Dmitrii\Desktop\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.Admin.resources
+C:\Users\Dmitrii\Desktop\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.Ticket.resources
+C:\Users\Dmitrii\Desktop\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.Properties.Resources.resources
+C:\Users\Dmitrii\Desktop\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.csproj.GenerateResource.Cache
+C:\Users\Dmitrii\Desktop\MyShop\WindowsFormsApplication19\bin\Debug\WindowsFormsApplication19.exe
+C:\Users\Dmitrii\Desktop\MyShop\WindowsFormsApplication19\bin\Debug\WindowsFormsApplication19.pdb
+C:\Users\Dmitrii\Desktop\MyShop\WindowsFormsApplication19\bin\Debug\ShopWorkWithDB.dll
+C:\Users\Dmitrii\Desktop\MyShop\WindowsFormsApplication19\bin\Debug\EntityFramework.dll
+C:\Users\Dmitrii\Desktop\MyShop\WindowsFormsApplication19\bin\Debug\ShopWorkWithDB.pdb
+C:\Users\Dmitrii\Desktop\MyShop\WindowsFormsApplication19\bin\Debug\EntityFramework.xml
+C:\Users\Dmitrii\Desktop\MyShop\WindowsFormsApplication19\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dmitrii\Desktop\MyShop\WindowsFormsApplication19\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Юра\C# Project\GitUraShop(v. 4.0 new version)\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.csprojResolveAssemblyReference.cache
+C:\Users\Юра\C# Project\GitUraShop(v. 4.0 new version)\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.Login.resources
+C:\Users\Юра\C# Project\GitUraShop(v. 4.0 new version)\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.Cashier.resources
+C:\Users\Юра\C# Project\GitUraShop(v. 4.0 new version)\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.Admin.resources
+C:\Users\Юра\C# Project\GitUraShop(v. 4.0 new version)\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.Ticket.resources
+C:\Users\Юра\C# Project\GitUraShop(v. 4.0 new version)\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.Properties.Resources.resources
+C:\Users\Юра\C# Project\GitUraShop(v. 4.0 new version)\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.csproj.GenerateResource.Cache
+C:\Users\Юра\C# Project\GitUraShop(v. 4.0 new version)\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.csproj.CoreCompileInputs.cache
+C:\Users\Юра\C# Project\GitUraShop(v. 4.0 new version)\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.exe
+C:\Users\Юра\C# Project\GitUraShop(v. 4.0 new version)\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.pdb
+C:\Users\Юра\C# Project\GitUraShop(v. 4.0 new version)\MyShop\WindowsFormsApplication19\bin\Debug\WindowsFormsApplication19.exe.config
+C:\Users\Юра\C# Project\GitUraShop(v. 4.0 new version)\MyShop\WindowsFormsApplication19\bin\Debug\WindowsFormsApplication19.exe
+C:\Users\Юра\C# Project\GitUraShop(v. 4.0 new version)\MyShop\WindowsFormsApplication19\bin\Debug\WindowsFormsApplication19.pdb
+C:\Users\Юра\C# Project\GitUraShop(v. 4.0 new version)\MyShop\WindowsFormsApplication19\bin\Debug\EntityFramework.dll
+C:\Users\Юра\C# Project\GitUraShop(v. 4.0 new version)\MyShop\WindowsFormsApplication19\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Юра\C# Project\GitUraShop(v. 4.0 new version)\MyShop\WindowsFormsApplication19\bin\Debug\ShopWorkWithDB.dll
+C:\Users\Юра\C# Project\GitUraShop(v. 4.0 new version)\MyShop\WindowsFormsApplication19\bin\Debug\EntityFramework.xml
+C:\Users\Юра\C# Project\GitUraShop(v. 4.0 new version)\MyShop\WindowsFormsApplication19\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Юра\C# Project\GitUraShop(v. 4.0 new version)\MyShop\WindowsFormsApplication19\bin\Debug\ShopWorkWithDB.pdb
+C:\Users\Юра\C# Project\GitUraShop(v. 4.0 new version)\MyShop\WindowsFormsApplication19\bin\Debug\ShopWorkWithDB.dll.config
+C:\Users\Юра\C# Project\GitUraShop(v. 4.0 new version)\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.AdminProducts.resources
+C:\Users\Dmitrii\Desktop\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.AdminProducts.resources
+D:\teamsh\MyShop\WindowsFormsApplication19\bin\Debug\WindowsFormsApplication19.exe.config
+D:\teamsh\MyShop\WindowsFormsApplication19\bin\Debug\WindowsFormsApplication19.exe
+D:\teamsh\MyShop\WindowsFormsApplication19\bin\Debug\WindowsFormsApplication19.pdb
+D:\teamsh\MyShop\WindowsFormsApplication19\bin\Debug\EntityFramework.dll
+D:\teamsh\MyShop\WindowsFormsApplication19\bin\Debug\EntityFramework.SqlServer.dll
+D:\teamsh\MyShop\WindowsFormsApplication19\bin\Debug\ShopWorkWithDB.dll
+D:\teamsh\MyShop\WindowsFormsApplication19\bin\Debug\EntityFramework.xml
+D:\teamsh\MyShop\WindowsFormsApplication19\bin\Debug\EntityFramework.SqlServer.xml
+D:\teamsh\MyShop\WindowsFormsApplication19\bin\Debug\ShopWorkWithDB.pdb
+D:\teamsh\MyShop\WindowsFormsApplication19\bin\Debug\ShopWorkWithDB.dll.config
+D:\teamsh\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.csprojResolveAssemblyReference.cache
+D:\teamsh\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.AdminProducts.resources
+D:\teamsh\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.Login.resources
+D:\teamsh\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.Cashier.resources
+D:\teamsh\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.Admin.resources
+D:\teamsh\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.Ticket.resources
+D:\teamsh\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.Properties.Resources.resources
+D:\teamsh\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.csproj.GenerateResource.Cache
+D:\teamsh\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.csproj.CoreCompileInputs.cache
+D:\teamsh\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.exe
+D:\teamsh\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.pdb

@@ -31,18 +31,23 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.Actions = new System.Windows.Forms.TextBox();
-            this.Number = new System.Windows.Forms.ComboBox();
-            this.ProductsList = new System.Windows.Forms.ListBox();
-            this.Price = new System.Windows.Forms.TextBox();
+            this.textBoxActions = new System.Windows.Forms.TextBox();
             this.AddToBasket = new System.Windows.Forms.Button();
-            this.TotalPrice = new System.Windows.Forms.TextBox();
-            this.Check = new System.Windows.Forms.Button();
-            this.Exit = new System.Windows.Forms.Button();
-            this.CashierName = new System.Windows.Forms.TextBox();
+            this.textBoxTotalPrice = new System.Windows.Forms.TextBox();
+            this.buttonCheck = new System.Windows.Forms.Button();
+            this.buttonExit = new System.Windows.Forms.Button();
+            this.textBoxCashierName = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.dataGridViewProdcuts = new System.Windows.Forms.DataGridView();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewProdcuts)).BeginInit();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -78,155 +83,178 @@
             this.label3.TabIndex = 3;
             this.label3.Text = "Касир: ";
             // 
-            // Actions
+            // textBoxActions
             // 
-            this.Actions.ForeColor = System.Drawing.Color.Gray;
-            this.Actions.Location = new System.Drawing.Point(284, 17);
-            this.Actions.Multiline = true;
-            this.Actions.Name = "Actions";
-            this.Actions.Size = new System.Drawing.Size(488, 90);
-            this.Actions.TabIndex = 4;
-            this.Actions.Text = "Акції";
-            this.Actions.TextChanged += new System.EventHandler(this.Actions_TextChanged);
-            // 
-            // Number
-            // 
-            this.Number.FormattingEnabled = true;
-            this.Number.Location = new System.Drawing.Point(635, 162);
-            this.Number.Name = "Number";
-            this.Number.Size = new System.Drawing.Size(137, 21);
-            this.Number.TabIndex = 10;
-            // 
-            // ProductsList
-            // 
-            this.ProductsList.FormattingEnabled = true;
-            this.ProductsList.Location = new System.Drawing.Point(4, 162);
-            this.ProductsList.Name = "ProductsList";
-            this.ProductsList.Size = new System.Drawing.Size(624, 277);
-            this.ProductsList.TabIndex = 5;
-            // 
-            // Price
-            // 
-            this.Price.Location = new System.Drawing.Point(635, 215);
-            this.Price.Name = "Price";
-            this.Price.Size = new System.Drawing.Size(137, 20);
-            this.Price.TabIndex = 11;
+            this.textBoxActions.ForeColor = System.Drawing.Color.Gray;
+            this.textBoxActions.Location = new System.Drawing.Point(284, 17);
+            this.textBoxActions.Multiline = true;
+            this.textBoxActions.Name = "textBoxActions";
+            this.textBoxActions.Size = new System.Drawing.Size(446, 90);
+            this.textBoxActions.TabIndex = 4;
+            this.textBoxActions.Text = "Акції";
             // 
             // AddToBasket
             // 
             this.AddToBasket.BackColor = System.Drawing.Color.Red;
             this.AddToBasket.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.AddToBasket.ForeColor = System.Drawing.Color.White;
-            this.AddToBasket.Location = new System.Drawing.Point(635, 250);
+            this.AddToBasket.Location = new System.Drawing.Point(3, 19);
             this.AddToBasket.Name = "AddToBasket";
             this.AddToBasket.Size = new System.Drawing.Size(137, 29);
             this.AddToBasket.TabIndex = 12;
             this.AddToBasket.Text = "Додати в корзину";
             this.AddToBasket.UseVisualStyleBackColor = false;
             // 
-            // TotalPrice
+            // textBoxTotalPrice
             // 
-            this.TotalPrice.ForeColor = System.Drawing.Color.Gray;
-            this.TotalPrice.Location = new System.Drawing.Point(498, 445);
-            this.TotalPrice.Multiline = true;
-            this.TotalPrice.Name = "TotalPrice";
-            this.TotalPrice.Size = new System.Drawing.Size(274, 59);
-            this.TotalPrice.TabIndex = 13;
-            this.TotalPrice.Text = "Загальна вартість";
+            this.textBoxTotalPrice.ForeColor = System.Drawing.Color.Gray;
+            this.textBoxTotalPrice.Location = new System.Drawing.Point(555, 495);
+            this.textBoxTotalPrice.Multiline = true;
+            this.textBoxTotalPrice.Name = "textBoxTotalPrice";
+            this.textBoxTotalPrice.Size = new System.Drawing.Size(175, 59);
+            this.textBoxTotalPrice.TabIndex = 13;
+            this.textBoxTotalPrice.Text = "Загальна вартість";
             // 
-            // Check
+            // buttonCheck
             // 
-            this.Check.BackColor = System.Drawing.Color.Red;
-            this.Check.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Check.ForeColor = System.Drawing.Color.White;
-            this.Check.Location = new System.Drawing.Point(4, 470);
-            this.Check.Name = "Check";
-            this.Check.Size = new System.Drawing.Size(177, 34);
-            this.Check.TabIndex = 14;
-            this.Check.Text = "Оформити чек";
-            this.Check.UseVisualStyleBackColor = false;
-            this.Check.Click += new System.EventHandler(this.Check_Click);
+            this.buttonCheck.BackColor = System.Drawing.Color.Red;
+            this.buttonCheck.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonCheck.ForeColor = System.Drawing.Color.White;
+            this.buttonCheck.Location = new System.Drawing.Point(4, 495);
+            this.buttonCheck.Name = "buttonCheck";
+            this.buttonCheck.Size = new System.Drawing.Size(177, 34);
+            this.buttonCheck.TabIndex = 14;
+            this.buttonCheck.Text = "Оформити чек";
+            this.buttonCheck.UseVisualStyleBackColor = false;
+            this.buttonCheck.Click += new System.EventHandler(this.Check_Click);
             // 
-            // Exit
+            // buttonExit
             // 
-            this.Exit.BackColor = System.Drawing.Color.Red;
-            this.Exit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Exit.ForeColor = System.Drawing.Color.White;
-            this.Exit.Location = new System.Drawing.Point(205, 470);
-            this.Exit.Name = "Exit";
-            this.Exit.Size = new System.Drawing.Size(177, 34);
-            this.Exit.TabIndex = 15;
-            this.Exit.Text = "Вихід";
-            this.Exit.UseVisualStyleBackColor = false;
-            this.Exit.Click += new System.EventHandler(this.Exit_Click);
+            this.buttonExit.BackColor = System.Drawing.Color.Red;
+            this.buttonExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonExit.ForeColor = System.Drawing.Color.White;
+            this.buttonExit.Location = new System.Drawing.Point(189, 495);
+            this.buttonExit.Name = "buttonExit";
+            this.buttonExit.Size = new System.Drawing.Size(177, 34);
+            this.buttonExit.TabIndex = 15;
+            this.buttonExit.Text = "Вихід";
+            this.buttonExit.UseVisualStyleBackColor = false;
+            this.buttonExit.Click += new System.EventHandler(this.Exit_Click);
             // 
-            // CashierName
+            // textBoxCashierName
             // 
-            this.CashierName.ForeColor = System.Drawing.Color.Gray;
-            this.CashierName.Location = new System.Drawing.Point(69, 86);
-            this.CashierName.Name = "CashierName";
-            this.CashierName.Size = new System.Drawing.Size(209, 20);
-            this.CashierName.TabIndex = 16;
-            this.CashierName.Text = "Ф.І.";
-            this.CashierName.TextChanged += new System.EventHandler(this.CashierName_TextChanged);
+            this.textBoxCashierName.Enabled = false;
+            this.textBoxCashierName.ForeColor = System.Drawing.Color.Gray;
+            this.textBoxCashierName.Location = new System.Drawing.Point(69, 86);
+            this.textBoxCashierName.Name = "textBoxCashierName";
+            this.textBoxCashierName.Size = new System.Drawing.Size(209, 20);
+            this.textBoxCashierName.TabIndex = 16;
+            this.textBoxCashierName.Text = "Ф.І.";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(0, 139);
+            this.label4.Location = new System.Drawing.Point(142, 139);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(52, 16);
+            this.label4.Size = new System.Drawing.Size(57, 16);
             this.label4.TabIndex = 17;
-            this.label4.Text = "Товар:";
+            this.label4.Text = "Товари";
+            // 
+            // dataGridViewProdcuts
+            // 
+            this.dataGridViewProdcuts.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewProdcuts.Location = new System.Drawing.Point(19, 162);
+            this.dataGridViewProdcuts.Name = "dataGridViewProdcuts";
+            this.dataGridViewProdcuts.Size = new System.Drawing.Size(354, 264);
+            this.dataGridViewProdcuts.TabIndex = 20;
+            // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Location = new System.Drawing.Point(146, 19);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(147, 225);
+            this.listBox1.TabIndex = 21;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.Location = new System.Drawing.Point(540, 139);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(64, 16);
+            this.label7.TabIndex = 22;
+            this.label7.Text = "Корзина";
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.label5);
+            this.panel1.Controls.Add(this.numericUpDown1);
+            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.AddToBasket);
+            this.panel1.Controls.Add(this.listBox1);
+            this.panel1.Location = new System.Drawing.Point(423, 162);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(307, 264);
+            this.panel1.TabIndex = 23;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Red;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(3, 54);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(137, 29);
+            this.button1.TabIndex = 22;
+            this.button1.Text = "Видалити";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // numericUpDown1
+            // 
+            this.numericUpDown1.Location = new System.Drawing.Point(88, 105);
+            this.numericUpDown1.Name = "numericUpDown1";
+            this.numericUpDown1.Size = new System.Drawing.Size(52, 20);
+            this.numericUpDown1.TabIndex = 23;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(631, 139);
+            this.label5.Location = new System.Drawing.Point(10, 105);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(134, 16);
-            this.label5.TabIndex = 18;
-            this.label5.Text = "Кількість на складі: ";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(631, 196);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(67, 16);
-            this.label6.TabIndex = 19;
-            this.label6.Text = "Вартість:";
+            this.label5.Size = new System.Drawing.Size(72, 16);
+            this.label5.TabIndex = 24;
+            this.label5.Text = "Кільскість";
             // 
             // Cashier
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Red;
-            this.ClientSize = new System.Drawing.Size(784, 562);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
+            this.ClientSize = new System.Drawing.Size(747, 562);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.dataGridViewProdcuts);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.CashierName);
-            this.Controls.Add(this.Exit);
-            this.Controls.Add(this.Check);
-            this.Controls.Add(this.TotalPrice);
-            this.Controls.Add(this.AddToBasket);
-            this.Controls.Add(this.Price);
-            this.Controls.Add(this.Number);
-            this.Controls.Add(this.ProductsList);
-            this.Controls.Add(this.Actions);
+            this.Controls.Add(this.textBoxCashierName);
+            this.Controls.Add(this.buttonExit);
+            this.Controls.Add(this.buttonCheck);
+            this.Controls.Add(this.textBoxTotalPrice);
+            this.Controls.Add(this.textBoxActions);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Cashier";
             this.Text = "Cashier";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Cashier_FormClosing);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewProdcuts)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -237,17 +265,19 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox Actions;
-        private System.Windows.Forms.ComboBox Number;
-        private System.Windows.Forms.ListBox ProductsList;
-        private System.Windows.Forms.TextBox Price;
+        private System.Windows.Forms.TextBox textBoxActions;
         private System.Windows.Forms.Button AddToBasket;
-        private System.Windows.Forms.TextBox TotalPrice;
-        private System.Windows.Forms.Button Check;
-        private System.Windows.Forms.Button Exit;
-        private System.Windows.Forms.TextBox CashierName;
+        private System.Windows.Forms.TextBox textBoxTotalPrice;
+        private System.Windows.Forms.Button buttonCheck;
+        private System.Windows.Forms.Button buttonExit;
+        private System.Windows.Forms.TextBox textBoxCashierName;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.DataGridView dataGridViewProdcuts;
+        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.Button button1;
     }
 }

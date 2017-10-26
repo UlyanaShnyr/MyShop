@@ -1,64 +1,37 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-//using WcfService1;
+using ShopWorkWithDB;
 
 
 namespace WindowsFormsApplication19
 {
     public partial class Cashier : Form
     {
-       
-        Login mainForm;
-        //ShopDB service = new ShopDB("feefe");
-        
-        public Cashier(Login mainForm)
+        ShopDbService dbService;
+        User user;
+
+        public Cashier(ShopDbService dbService, User user)
         {
             InitializeComponent();
-            this.mainForm = mainForm;
-           
-            
+            this.dbService = dbService;
+            this.user = user;
+            textBoxCashierName.Text = string.Format("{0} {1}", user.Name, user.Surname);
+
         }
-
-
 
         private void Check_Click(object sender, EventArgs e)
         {
-
-            Ticket f4;
-            f4 = new Ticket();
-            f4.ShowDialog();
-        }
-
-        private void Exit_Click(object sender, EventArgs e)
-        {
-           
-            this.Hide();
-            mainForm.Show();
-
-          
-        }
-
-        private void Cashier_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            mainForm.Show();
-        }
-
-        private void Actions_TextChanged(object sender, EventArgs e)
-        {
             
         }
 
-        private void CashierName_TextChanged(object sender, EventArgs e)
-        {
-            //User u = new User();
-            //textBox4.Text = u.Name.ToString();
-        }
+        private void Exit_Click(object sender, EventArgs e)
+        {           
+            
+                    
+        }   
+
+       
+
+        
     }
 }

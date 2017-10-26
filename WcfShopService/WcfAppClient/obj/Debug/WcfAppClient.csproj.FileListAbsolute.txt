@@ -1,6 +1,0 @@
-c:\users\s25-r1\documents\visual studio 2015\Projects\WcfService1\WcfAppClient\bin\Debug\WcfAppClient.exe.config
-c:\users\s25-r1\documents\visual studio 2015\Projects\WcfService1\WcfAppClient\bin\Debug\WcfAppClient.exe
-c:\users\s25-r1\documents\visual studio 2015\Projects\WcfService1\WcfAppClient\bin\Debug\WcfAppClient.pdb
-c:\users\s25-r1\documents\visual studio 2015\Projects\WcfService1\WcfAppClient\obj\Debug\WcfAppClient.csprojResolveAssemblyReference.cache
-c:\users\s25-r1\documents\visual studio 2015\Projects\WcfService1\WcfAppClient\obj\Debug\WcfAppClient.exe
-c:\users\s25-r1\documents\visual studio 2015\Projects\WcfService1\WcfAppClient\obj\Debug\WcfAppClient.pdb

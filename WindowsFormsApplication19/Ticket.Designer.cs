@@ -114,6 +114,7 @@
             this.TotalPrice.Name = "TotalPrice";
             this.TotalPrice.Size = new System.Drawing.Size(100, 22);
             this.TotalPrice.TabIndex = 20;
+            this.TotalPrice.Text = "totalAmount";
             // 
             // label10
             // 
@@ -201,6 +202,7 @@
             this.day.Name = "day";
             this.day.Size = new System.Drawing.Size(100, 22);
             this.day.TabIndex = 12;
+            this.day.Text = "currentDate";
             // 
             // label7
             // 
@@ -232,6 +234,7 @@
             this.cashiersName.Name = "cashiersName";
             this.cashiersName.Size = new System.Drawing.Size(100, 20);
             this.cashiersName.TabIndex = 9;
+            this.cashiersName.Text = "countCashier";
             // 
             // label5
             // 
@@ -252,6 +255,7 @@
             this.score.Name = "score";
             this.score.Size = new System.Drawing.Size(100, 20);
             this.score.TabIndex = 7;
+            this.score.Text = "currentCount";
             // 
             // label4
             // 
@@ -272,6 +276,7 @@
             this.hour.Name = "hour";
             this.hour.Size = new System.Drawing.Size(100, 19);
             this.hour.TabIndex = 5;
+            this.hour.Text = "currentTime";
             // 
             // label3
             // 
