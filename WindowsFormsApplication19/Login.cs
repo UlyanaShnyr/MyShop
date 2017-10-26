@@ -44,47 +44,6 @@ namespace WindowsFormsApplication19
                 this.Show();
             }
             LoginName.Text = Password.Text = "";
-        }
-
-        private void Login_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            //Close();
-        }
-
-        private void Login_FormClosing(object sender, FormClosingEventArgs e)
-        {
-           // Close();
-        }
-
-        private void LoginName_Enter(object sender, EventArgs e)
-        {
-
-            // textBox1.Text = "";
-
-        }
-
-        private void LoginName_TextChanged(object sender, EventArgs e)
-        {
-           
-           LoginName.Text = "";
-           LoginName.TextChanged -= LoginName_TextChanged;
-           LoginName.ForeColor = Color.Black;
-        
-           
-        }
-
-        private void Password_TextChanged(object sender, EventArgs e)
-        {
-            Password.Text = "";
-            Password.TextChanged -= Password_TextChanged;
-            Password.ForeColor = Color.Black;
-        }
-
-        private void labelshop_Click(object sender, EventArgs e)
-        {
-
-        }
-
-  
+        }    
     }
 }
