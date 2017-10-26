@@ -32,22 +32,24 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.textBoxActions = new System.Windows.Forms.TextBox();
-            this.AddToBasket = new System.Windows.Forms.Button();
+            this.buttonAddToCart = new System.Windows.Forms.Button();
             this.textBoxTotalPrice = new System.Windows.Forms.TextBox();
             this.buttonCheck = new System.Windows.Forms.Button();
             this.buttonExit = new System.Windows.Forms.Button();
             this.textBoxCashierName = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.dataGridViewProdcuts = new System.Windows.Forms.DataGridView();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.listBoxCart = new System.Windows.Forms.ListBox();
             this.label7 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.label5 = new System.Windows.Forms.Label();
+            this.numericUpDownCart = new System.Windows.Forms.NumericUpDown();
+            this.buttonDeleteFromCart = new System.Windows.Forms.Button();
+            this.comboBoxProductType = new System.Windows.Forms.ComboBox();
+            this.label6 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewProdcuts)).BeginInit();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownCart)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -93,22 +95,23 @@
             this.textBoxActions.TabIndex = 4;
             this.textBoxActions.Text = "Акції";
             // 
-            // AddToBasket
+            // buttonAddToCart
             // 
-            this.AddToBasket.BackColor = System.Drawing.Color.Red;
-            this.AddToBasket.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.AddToBasket.ForeColor = System.Drawing.Color.White;
-            this.AddToBasket.Location = new System.Drawing.Point(3, 19);
-            this.AddToBasket.Name = "AddToBasket";
-            this.AddToBasket.Size = new System.Drawing.Size(137, 29);
-            this.AddToBasket.TabIndex = 12;
-            this.AddToBasket.Text = "Додати в корзину";
-            this.AddToBasket.UseVisualStyleBackColor = false;
+            this.buttonAddToCart.BackColor = System.Drawing.Color.Red;
+            this.buttonAddToCart.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonAddToCart.ForeColor = System.Drawing.Color.White;
+            this.buttonAddToCart.Location = new System.Drawing.Point(3, 19);
+            this.buttonAddToCart.Name = "buttonAddToCart";
+            this.buttonAddToCart.Size = new System.Drawing.Size(137, 29);
+            this.buttonAddToCart.TabIndex = 12;
+            this.buttonAddToCart.Text = "Додати в корзину";
+            this.buttonAddToCart.UseVisualStyleBackColor = false;
+            this.buttonAddToCart.Click += new System.EventHandler(this.buttonAddToCart_Click);
             // 
             // textBoxTotalPrice
             // 
             this.textBoxTotalPrice.ForeColor = System.Drawing.Color.Gray;
-            this.textBoxTotalPrice.Location = new System.Drawing.Point(555, 495);
+            this.textBoxTotalPrice.Location = new System.Drawing.Point(635, 482);
             this.textBoxTotalPrice.Multiline = true;
             this.textBoxTotalPrice.Name = "textBoxTotalPrice";
             this.textBoxTotalPrice.Size = new System.Drawing.Size(175, 59);
@@ -156,7 +159,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(142, 139);
+            this.label4.Location = new System.Drawing.Point(295, 139);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(57, 16);
             this.label4.TabIndex = 17;
@@ -165,25 +168,25 @@
             // dataGridViewProdcuts
             // 
             this.dataGridViewProdcuts.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewProdcuts.Location = new System.Drawing.Point(19, 162);
+            this.dataGridViewProdcuts.Location = new System.Drawing.Point(139, 162);
             this.dataGridViewProdcuts.Name = "dataGridViewProdcuts";
-            this.dataGridViewProdcuts.Size = new System.Drawing.Size(354, 264);
+            this.dataGridViewProdcuts.Size = new System.Drawing.Size(357, 264);
             this.dataGridViewProdcuts.TabIndex = 20;
             // 
-            // listBox1
+            // listBoxCart
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(146, 19);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(147, 225);
-            this.listBox1.TabIndex = 21;
+            this.listBoxCart.FormattingEnabled = true;
+            this.listBoxCart.Location = new System.Drawing.Point(146, 19);
+            this.listBoxCart.Name = "listBoxCart";
+            this.listBoxCart.Size = new System.Drawing.Size(147, 225);
+            this.listBoxCart.TabIndex = 21;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(540, 139);
+            this.label7.Location = new System.Drawing.Point(632, 139);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(64, 16);
             this.label7.TabIndex = 22;
@@ -192,33 +195,14 @@
             // panel1
             // 
             this.panel1.Controls.Add(this.label5);
-            this.panel1.Controls.Add(this.numericUpDown1);
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.AddToBasket);
-            this.panel1.Controls.Add(this.listBox1);
-            this.panel1.Location = new System.Drawing.Point(423, 162);
+            this.panel1.Controls.Add(this.numericUpDownCart);
+            this.panel1.Controls.Add(this.buttonDeleteFromCart);
+            this.panel1.Controls.Add(this.buttonAddToCart);
+            this.panel1.Controls.Add(this.listBoxCart);
+            this.panel1.Location = new System.Drawing.Point(503, 162);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(307, 264);
             this.panel1.TabIndex = 23;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Red;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(3, 54);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(137, 29);
-            this.button1.TabIndex = 22;
-            this.button1.Text = "Видалити";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // numericUpDown1
-            // 
-            this.numericUpDown1.Location = new System.Drawing.Point(88, 105);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(52, 20);
-            this.numericUpDown1.TabIndex = 23;
             // 
             // label5
             // 
@@ -231,12 +215,52 @@
             this.label5.TabIndex = 24;
             this.label5.Text = "Кільскість";
             // 
+            // numericUpDownCart
+            // 
+            this.numericUpDownCart.Location = new System.Drawing.Point(88, 105);
+            this.numericUpDownCart.Name = "numericUpDownCart";
+            this.numericUpDownCart.Size = new System.Drawing.Size(52, 20);
+            this.numericUpDownCart.TabIndex = 23;
+            // 
+            // buttonDeleteFromCart
+            // 
+            this.buttonDeleteFromCart.BackColor = System.Drawing.Color.Red;
+            this.buttonDeleteFromCart.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonDeleteFromCart.ForeColor = System.Drawing.Color.White;
+            this.buttonDeleteFromCart.Location = new System.Drawing.Point(3, 54);
+            this.buttonDeleteFromCart.Name = "buttonDeleteFromCart";
+            this.buttonDeleteFromCart.Size = new System.Drawing.Size(137, 29);
+            this.buttonDeleteFromCart.TabIndex = 22;
+            this.buttonDeleteFromCart.Text = "Видалити";
+            this.buttonDeleteFromCart.UseVisualStyleBackColor = false;
+            // 
+            // comboBoxProductType
+            // 
+            this.comboBoxProductType.FormattingEnabled = true;
+            this.comboBoxProductType.Location = new System.Drawing.Point(12, 162);
+            this.comboBoxProductType.Name = "comboBoxProductType";
+            this.comboBoxProductType.Size = new System.Drawing.Size(121, 21);
+            this.comboBoxProductType.TabIndex = 24;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(16, 143);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(83, 16);
+            this.label6.TabIndex = 25;
+            this.label6.Text = "Тип товару";
+            // 
             // Cashier
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Red;
-            this.ClientSize = new System.Drawing.Size(747, 562);
+            this.ClientSize = new System.Drawing.Size(821, 562);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.comboBoxProductType);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.dataGridViewProdcuts);
@@ -254,7 +278,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewProdcuts)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownCart)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -266,18 +290,20 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBoxActions;
-        private System.Windows.Forms.Button AddToBasket;
+        private System.Windows.Forms.Button buttonAddToCart;
         private System.Windows.Forms.TextBox textBoxTotalPrice;
         private System.Windows.Forms.Button buttonCheck;
         private System.Windows.Forms.Button buttonExit;
         private System.Windows.Forms.TextBox textBoxCashierName;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.DataGridView dataGridViewProdcuts;
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox listBoxCart;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.NumericUpDown numericUpDownCart;
+        private System.Windows.Forms.Button buttonDeleteFromCart;
+        private System.Windows.Forms.ComboBox comboBoxProductType;
+        private System.Windows.Forms.Label label6;
     }
 }

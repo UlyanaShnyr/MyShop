@@ -78,3 +78,10 @@ C:\Users\Dmitrii\Desktop\MyShop\WindowsFormsApplication19\bin\Debug\ShopWorkWith
 C:\Users\Dmitrii\Desktop\MyShop\WindowsFormsApplication19\bin\Debug\EntityFramework.xml
 C:\Users\Dmitrii\Desktop\MyShop\WindowsFormsApplication19\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Dmitrii\Desktop\MyShop\WindowsFormsApplication19\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\bin\Debug\EntityFramework.dll
+C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\bin\Debug\ShopWorkWithDB.dll
+C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\bin\Debug\EntityFramework.xml
+C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\bin\Debug\ShopWorkWithDB.pdb
+C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\bin\Debug\ShopWorkWithDB.dll.config

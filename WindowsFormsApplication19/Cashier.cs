@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 using ShopWorkWithDB;
+using System.Collections.Generic;
 
 
 namespace WindowsFormsApplication19
@@ -17,6 +18,12 @@ namespace WindowsFormsApplication19
             this.user = user;
             textBoxCashierName.Text = string.Format("{0} {1}", user.Name, user.Surname);
 
+            List<ProductType> types = dbService.GetProductTypes();
+            for(int i=0; i<types.Count; i++)
+            {
+                comboBoxProductType.Items.Add(types[i].Name);
+            }
+                                        
         }
 
         private void Check_Click(object sender, EventArgs e)
@@ -30,10 +37,11 @@ namespace WindowsFormsApplication19
         {           
             
                     
-        }   
+        }
 
-       
-
-        
+        private void buttonAddToCart_Click(object sender, EventArgs e)
+        {
+            listBoxCart.Items.Add(dataGridViewProdcuts.SelectedRows[0]);
+        }
     }
 }
