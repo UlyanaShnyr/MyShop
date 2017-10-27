@@ -7,6 +7,9 @@ using System.Linq;
 
 namespace WindowsFormsApplication19
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public partial class Cashier : Form
     {
         ShopDbService dbService;
@@ -49,10 +52,6 @@ namespace WindowsFormsApplication19
 
         private void Check_Click(object sender, EventArgs e)
         {
-
-            
-        
-
             List<SoldProduct> soldProducts = new List<SoldProduct>();
             for(int i=0; i<listViewCart.Items.Count; i++)
             {
