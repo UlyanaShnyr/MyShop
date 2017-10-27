@@ -4,6 +4,7 @@ using System.Windows.Forms;
 using ShopWorkWithDB;
 using System.Data.SqlClient;
 using System.Data;
+using System.Linq;
 
 namespace WindowsFormsApplication19
 {
@@ -143,6 +144,18 @@ namespace WindowsFormsApplication19
         /// <param name="e"></param>
         private void btnReports_Click(object sender, EventArgs e)
         {
+            try
+            {
+                FolderBrowserDialog fb = new FolderBrowserDialog();
+                if (fb.ShowDialog() == DialogResult.OK)
+                {
+                    ExcelWriter.ExcelWriter.WriteToExcel(dbService.DB.Sales.ToList(), fb.SelectedPath + "/report.xls");
+
+                }
+            }
+            catch(Exception ex) {
+                MessageBox.Show(ex.Message);
+            }
 
         }
         /// <summary>
