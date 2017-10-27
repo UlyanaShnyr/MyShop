@@ -7,6 +7,9 @@ using System.Linq;
 
 namespace WindowsFormsApplication19
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public partial class Cashier : Form
     {
         ShopDbService dbService;

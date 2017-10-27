@@ -1,64 +1,45 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
 using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 using ShopWorkWithDB;
 using System.Data.SqlClient;
-using System.Data;
 
 namespace WindowsFormsApplication19
 {
     /// <summary>
-    /// Форма Адміна
+    /// Форма AdminProducts форма працювання з таблицями товарів 
     /// </summary>
-    public partial class Admin : Form
+    public partial class AdminProducts : Form
     {
-        ShopDbService dbService;
-
-        User user;
-
+        
         SqlCommandBuilder scb;
         SqlConnection con = new SqlConnection(GetConnectionString());
         SqlDataAdapter sda;
         DataTable dt;
-
         /// <summary>
-        /// Конструктор Адміна 
+        /// конструктор
         /// </summary>
-        /// <param name="dbService"></param>
-        /// <param name="user"></param>
-        public Admin(ShopDbService dbService, User user)
+        public AdminProducts()
         {
             InitializeComponent();
-            this.dbService = dbService;
-            this.user = user;
-
         }
         /// <summary>
-        /// Заргузка форми Адмін і його імя
+        /// стрічка до бази данних
         /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void Admin_Load(object sender, EventArgs e)
-        {
-            txtBoxAdminName.Text = user.Name;
-        }
+        /// <returns></returns>
         private static string GetConnectionString()
         {
             //       Data Source=Підключення до сервера ; Initial Catalog = Назва БазиДанних ; Integrated Security = перевірка автентичності ;  логін ;  пароль ;
             return @"Data Source=ShopDataBase.mssql.somee.com; Initial Catalog=ShopDataBase; Integrated Security=False; User ID=kosmi4_SQLLogin_2; Password=hb29w57hmo";
         }
         /// <summary>
-        /// Кнопка Товари перехід на форму Товарів для роботи з ними
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void btnProducts_Click(object sender, EventArgs e)
-        {
-            AdminProducts adminProducts = new AdminProducts();
-            adminProducts.ShowDialog();
-        }
-        /// <summary>
-        /// Кнопка показати  Знижки
+        /// Кнопка показати Знижки
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -79,7 +60,7 @@ namespace WindowsFormsApplication19
 
         }
         /// <summary>
-        /// Кнопка редагувати знижки 
+        /// Кнопка Редагувати Знижки
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -95,21 +76,23 @@ namespace WindowsFormsApplication19
                 MessageBox.Show(ex.ToString());
             }
             MessageBox.Show("Updated", "Form Updated", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+
         }
         /// <summary>
-        /// Кнопка показати усіх працівників в таблицю DataGridView 
+        /// Кнопка Показати Тип Продукту
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void btnPrintUser_Click(object sender, EventArgs e)
+        private void btnPrintTypeProduct_Click(object sender, EventArgs e)
         {
             try
             {
-                sda = new SqlDataAdapter("SELECT * FROM [User]", con);
+                sda = new SqlDataAdapter("SELECT * FROM ProductType", con);
 
                 dt = new DataTable();
                 sda.Fill(dt);
-                dataGridViewUser.DataSource = dt;
+                dataGridViewTypeProduct.DataSource = dt;
             }
             catch (Exception ex)
             {
@@ -118,11 +101,11 @@ namespace WindowsFormsApplication19
 
         }
         /// <summary>
-        /// Кнопка Редагування Касирів можна прямо із таблиці і нажати кнопку EditCashire
+        /// Кнопка Редагувати Тип Продукту
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void btnUpdateUser_Click(object sender, EventArgs e)
+        private void btnEditTypeProduct_Click(object sender, EventArgs e)
         {
             try
             {
@@ -137,16 +120,47 @@ namespace WindowsFormsApplication19
 
         }
         /// <summary>
-        /// Кнопка Звіти тут будуть наші звіти 
+        /// Кнопка показати Продукти
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void btnReports_Click(object sender, EventArgs e)
+        private void btnPrintProduct_Click(object sender, EventArgs e)
         {
+            try
+            {
+                sda = new SqlDataAdapter("SELECT * FROM Product", con);
+
+                dt = new DataTable();
+                sda.Fill(dt);
+                dataGridViewProduct.DataSource = dt;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
 
         }
         /// <summary>
-        /// Кнопка вихід з форми Адміна на форму Логовання
+        /// Кнопка Редагувати Продукт
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnEditProduct_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                scb = new SqlCommandBuilder(sda);
+                sda.Update(dt);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+            MessageBox.Show("Updated", "Form Updated", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+        }
+        /// <summary>
+        /// Кнопка Вийти 
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
