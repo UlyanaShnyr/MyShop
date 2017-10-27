@@ -58,7 +58,7 @@ namespace WindowsFormsApplication19
             score.Text = "100111";
             day.Text = DateTime.Now.ToShortDateString();
             nimber.Text = model.Products.Count.ToString();
-
+            TotalPrice.Text = model.price.ToString();
             
             lables = new Label[model.Products.Count];
             lablesPrice = new Label[model.Products.Count];
