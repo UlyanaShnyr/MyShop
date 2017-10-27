@@ -61,11 +61,11 @@
             this.panel1.Controls.Add(this.label12);
             this.panel1.Controls.Add(this.label11);
             this.panel1.Controls.Add(this.TotalPrice);
+            this.panel1.Controls.Add(this.numbers);
             this.panel1.Controls.Add(this.label10);
             this.panel1.Controls.Add(this.label9);
             this.panel1.Controls.Add(this.priceforOneProducts);
             this.panel1.Controls.Add(this.nimber);
-            this.panel1.Controls.Add(this.numbers);
             this.panel1.Controls.Add(this.ProductsName);
             this.panel1.Controls.Add(this.Sale);
             this.panel1.Controls.Add(this.day);
@@ -81,7 +81,7 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(56, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(347, 348);
+            this.panel1.Size = new System.Drawing.Size(347, 394);
             this.panel1.TabIndex = 0;
             // 
             // label12
@@ -89,18 +89,19 @@
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label12.ForeColor = System.Drawing.Color.Black;
-            this.label12.Location = new System.Drawing.Point(110, 319);
+            this.label12.Location = new System.Drawing.Point(114, 370);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(97, 13);
             this.label12.TabIndex = 22;
             this.label12.Text = "+3 (022) 296-54-85";
+            this.label12.Click += new System.EventHandler(this.label12_Click);
             // 
             // label11
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label11.ForeColor = System.Drawing.Color.Black;
-            this.label11.Location = new System.Drawing.Point(89, 306);
+            this.label11.Location = new System.Drawing.Point(101, 348);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(149, 13);
             this.label11.TabIndex = 21;
@@ -109,18 +110,19 @@
             // TotalPrice
             // 
             this.TotalPrice.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.TotalPrice.Location = new System.Drawing.Point(117, 270);
+            this.TotalPrice.Location = new System.Drawing.Point(117, 316);
             this.TotalPrice.Multiline = true;
             this.TotalPrice.Name = "TotalPrice";
             this.TotalPrice.Size = new System.Drawing.Size(100, 22);
             this.TotalPrice.TabIndex = 20;
+            this.TotalPrice.Text = "0.0";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label10.ForeColor = System.Drawing.Color.Black;
-            this.label10.Location = new System.Drawing.Point(3, 276);
+            this.label10.Location = new System.Drawing.Point(3, 322);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(108, 16);
             this.label10.TabIndex = 19;
@@ -131,7 +133,7 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label9.ForeColor = System.Drawing.Color.Black;
-            this.label9.Location = new System.Drawing.Point(26, 248);
+            this.label9.Location = new System.Drawing.Point(35, 297);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(268, 16);
             this.label9.TabIndex = 18;
@@ -141,18 +143,19 @@
             // 
             this.priceforOneProducts.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.priceforOneProducts.ForeColor = System.Drawing.Color.Gray;
-            this.priceforOneProducts.Location = new System.Drawing.Point(213, 223);
+            this.priceforOneProducts.Location = new System.Drawing.Point(232, 205);
             this.priceforOneProducts.Multiline = true;
             this.priceforOneProducts.Name = "priceforOneProducts";
-            this.priceforOneProducts.Size = new System.Drawing.Size(100, 22);
+            this.priceforOneProducts.Size = new System.Drawing.Size(39, 22);
             this.priceforOneProducts.TabIndex = 17;
             this.priceforOneProducts.Text = "ціна за одиницю";
+            this.priceforOneProducts.Visible = false;
             // 
             // nimber
             // 
             this.nimber.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.nimber.ForeColor = System.Drawing.Color.Gray;
-            this.nimber.Location = new System.Drawing.Point(6, 223);
+            this.nimber.Location = new System.Drawing.Point(11, 272);
             this.nimber.Multiline = true;
             this.nimber.Name = "nimber";
             this.nimber.Size = new System.Drawing.Size(100, 22);
@@ -163,23 +166,25 @@
             // 
             this.numbers.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.numbers.ForeColor = System.Drawing.Color.Gray;
-            this.numbers.Location = new System.Drawing.Point(213, 195);
+            this.numbers.Location = new System.Drawing.Point(282, 205);
             this.numbers.Multiline = true;
             this.numbers.Name = "numbers";
-            this.numbers.Size = new System.Drawing.Size(100, 22);
+            this.numbers.Size = new System.Drawing.Size(42, 22);
             this.numbers.TabIndex = 15;
             this.numbers.Text = "кількість";
+            this.numbers.Visible = false;
             // 
             // ProductsName
             // 
             this.ProductsName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ProductsName.ForeColor = System.Drawing.Color.Gray;
-            this.ProductsName.Location = new System.Drawing.Point(6, 195);
+            this.ProductsName.Location = new System.Drawing.Point(10, 205);
             this.ProductsName.Multiline = true;
             this.ProductsName.Name = "ProductsName";
             this.ProductsName.Size = new System.Drawing.Size(201, 22);
             this.ProductsName.TabIndex = 14;
             this.ProductsName.Text = "назва товару";
+            this.ProductsName.Visible = false;
             // 
             // Sale
             // 
@@ -201,6 +206,7 @@
             this.day.Name = "day";
             this.day.Size = new System.Drawing.Size(100, 22);
             this.day.TabIndex = 12;
+            this.day.Text = "26.10.2017";
             // 
             // label7
             // 
@@ -232,6 +238,7 @@
             this.cashiersName.Name = "cashiersName";
             this.cashiersName.Size = new System.Drawing.Size(100, 20);
             this.cashiersName.TabIndex = 9;
+            this.cashiersName.Text = "Clark E.R.";
             // 
             // label5
             // 
@@ -252,6 +259,7 @@
             this.score.Name = "score";
             this.score.Size = new System.Drawing.Size(100, 20);
             this.score.TabIndex = 7;
+            this.score.Text = "11111111";
             // 
             // label4
             // 
@@ -272,6 +280,7 @@
             this.hour.Name = "hour";
             this.hour.Size = new System.Drawing.Size(100, 19);
             this.hour.TabIndex = 5;
+            this.hour.Text = "15:45";
             // 
             // label3
             // 
@@ -309,7 +318,7 @@
             // Print
             // 
             this.Print.BackColor = System.Drawing.Color.White;
-            this.Print.Location = new System.Drawing.Point(56, 388);
+            this.Print.Location = new System.Drawing.Point(56, 412);
             this.Print.Name = "Print";
             this.Print.Size = new System.Drawing.Size(106, 38);
             this.Print.TabIndex = 1;
@@ -320,7 +329,7 @@
             // Back
             // 
             this.Back.BackColor = System.Drawing.Color.White;
-            this.Back.Location = new System.Drawing.Point(188, 388);
+            this.Back.Location = new System.Drawing.Point(188, 412);
             this.Back.Name = "Back";
             this.Back.Size = new System.Drawing.Size(106, 38);
             this.Back.TabIndex = 2;
