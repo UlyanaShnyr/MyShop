@@ -8,7 +8,6 @@ C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\bin\Debug\EntityFramewo
 C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\bin\Debug\ShopWorkWithDB.pdb
 C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\bin\Debug\ShopWorkWithDB.dll.config
-C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.csprojResolveAssemblyReference.cache
 C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.AdminProducts.resources
 C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.Login.resources
 C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\obj\Debug\WindowsFormsApplication19.Cashier.resources

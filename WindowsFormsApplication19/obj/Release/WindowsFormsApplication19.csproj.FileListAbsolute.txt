@@ -11,3 +11,24 @@ C:\Users\user\documents\visual studio 2012\Projects\WindowsFormsApplication19\Wi
 C:\Users\user\documents\visual studio 2012\Projects\WindowsFormsApplication19\WindowsFormsApplication19\obj\Release\WindowsFormsApplication19.csproj.GenerateResource.Cache
 C:\Users\user\documents\visual studio 2012\Projects\WindowsFormsApplication19\WindowsFormsApplication19\obj\Release\WindowsFormsApplication19.exe
 C:\Users\user\documents\visual studio 2012\Projects\WindowsFormsApplication19\WindowsFormsApplication19\obj\Release\WindowsFormsApplication19.pdb
+C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\obj\Release\WindowsFormsApplication19.AdminProducts.resources
+C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\obj\Release\WindowsFormsApplication19.Login.resources
+C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\obj\Release\WindowsFormsApplication19.Cashier.resources
+C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\obj\Release\WindowsFormsApplication19.Admin.resources
+C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\obj\Release\WindowsFormsApplication19.Ticket.resources
+C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\obj\Release\WindowsFormsApplication19.Properties.Resources.resources
+C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\obj\Release\WindowsFormsApplication19.csproj.GenerateResource.Cache
+C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\obj\Release\WindowsFormsApplication19.csproj.CoreCompileInputs.cache
+C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\obj\Release\WindowsFormsApplication19.exe
+C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\obj\Release\WindowsFormsApplication19.pdb
+C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\bin\Release\WindowsFormsApplication19.exe.config
+C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\bin\Release\WindowsFormsApplication19.exe
+C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\bin\Release\WindowsFormsApplication19.pdb
+C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\bin\Release\EntityFramework.dll
+C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\bin\Release\ShopWorkWithDB.dll
+C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\bin\Release\EntityFramework.xml
+C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\bin\Release\ShopWorkWithDB.pdb
+C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\bin\Release\ShopWorkWithDB.dll.config
+C:\Users\s25-r1\Desktop\MyShop\WindowsFormsApplication19\obj\Release\WindowsFormsApplication19.csprojResolveAssemblyReference.cache
